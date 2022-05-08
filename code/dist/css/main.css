@@ -1,3 +1,28 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 body {
-  color: black;
+  width: 100vw;
+  overflow-x: hidden;
+  background-color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+body *,
+body *::before,
+body *::after {
+  all: unset;
+  z-index: 0;
+}
+
+script, head {
+  display: none;
 }/*# sourceMappingURL=main.css.map */
