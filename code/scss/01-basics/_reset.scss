@@ -13,7 +13,7 @@ html {
 body {
     width: 100vw;
     overflow-x: hidden;
-    background-color: $color;
+    background-color: $wit;
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
@@ -32,6 +32,6 @@ script, head {
 
 div.content {
     p {
-        color: $color;
+        color: $zwart;
     }
 }

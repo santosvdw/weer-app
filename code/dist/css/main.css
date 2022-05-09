@@ -11,7 +11,7 @@ html {
 body {
   width: 100vw;
   overflow-x: hidden;
-  background-color: #000000;
+  background-color: #FFFFFF;
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
@@ -28,5 +28,5 @@ script, head {
 }
 
 div.content p {
-  color: #000000;
+  color: hsl(0deg, 0%, 10%);
 }/*# sourceMappingURL=main.css.map */
