@@ -11,7 +11,7 @@ html {
 body {
   width: 100vw;
   overflow-x: hidden;
-  background-color: #FFFFFF;
+  background-color: #000000;
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
@@ -25,4 +25,8 @@ body *::after {
 
 script, head {
   display: none;
+}
+
+div.content p {
+  color: #000000;
 }/*# sourceMappingURL=main.css.map */
