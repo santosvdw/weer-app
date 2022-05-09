@@ -29,3 +29,9 @@ body {
 script, head {
     display: none;
 }
+
+div.content {
+    p {
+        color: $color;
+    }
+}
