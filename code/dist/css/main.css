@@ -11,7 +11,7 @@ html {
 body {
   width: 100vw;
   overflow-x: hidden;
-  background-color: #FFFFFF;
+  background-color: hsl(0deg, 0%, 100%);
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
