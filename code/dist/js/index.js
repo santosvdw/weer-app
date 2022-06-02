@@ -4,36 +4,44 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
     })
     .then(function (jsonData) {
         // Hier gaan we de opgehaalde data verwerken!
-        console.log(jsonData); // <-- Dit is alle data die we hebben opgehaald
-        // Hier halen we de weeromschrijving van weerstation Berkhout op (weerstation 2)
-
-        let weerstationId = 2;
-        let weerstation = document.locatie.weerstation.value;
-
-        console.log(weerstation);
-        if (weerstation == 'arcen') {
-            weerstationId = 1;
-        } else if (weerstation == 'berkhout') {
-            weerstationId = 2;
-        } else {
-            weerstationId = 3;
-        }
-
-        document.querySelector('.titel').innerHTML =
-            jsonData.actual.stationmeasurements[
-                weerstationId
-            ].weatherdescription;
-
+        console.log(jsonData);
+        let statMea = jsonData.actual.stationmeasurements;
+        // Weer-icoontje header
         var img = document.createElement('img');
-        img.src = jsonData.actual.stationmeasurements[weerstationId].iconurl; // <-- Het weer icoon
+        img.src = statMea[2].iconurl; // <-- Het weer icoon
         var src = document.querySelector('.weer-icoontje');
         src.appendChild(img);
 
-        // En de tempatuur
-        document.querySelector('.temperatuur').innerHTML =
-            jsonData.actual.stationmeasurements[weerstationId].temperature +
-            'graden';
-    })
-    .catch(function (err) {
-        console.log('Opps, Something went wrong!', err);
+        // Alle meetstations
+        console.log(jsonData.actual.stationmeasurements);
+        for (var i = 0; i < statMea.length; i++) {
+            let curStation = statMea[i].stationname;
+            console.log(curStation);
+        }
+
+        // Temperatuur (header)
+        let temp = document.querySelector('.temp');
+        let curTemp = statMea[2].temperature;
+        temp.innerHTML = curTemp + '°C';
+        console.log(temp.innerHTML);
+
+        // Locatie (header)
+        let locatie = document.querySelector('.loca').value.selected;
+        console.log(locatie);
     });
+
+// Welkoms bericht
+let greetingEl = document.getElementById('welkom');
+var today = new Date();
+var curHr = today.getHours();
+
+if (curHr < 12) {
+    console.log('good morning');
+    greetingEl.innerHTML = 'Goede ochtend!';
+} else if (curHr < 18) {
+    console.log('good afternoon');
+    greetingEl.innerHTML = 'Goede middag!';
+} else {
+    console.log('good evening');
+    greetingEl.innerHTML = 'Goede avond!';
+}
