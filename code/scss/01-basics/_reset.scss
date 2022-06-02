@@ -36,3 +36,11 @@ div.content {
         color: $zwart;
     }
 }
+
+select {
+    all: unset;
+    
+    option {
+        all: unset;
+    }
+}

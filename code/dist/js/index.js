@@ -16,7 +16,8 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
         console.log(jsonData.actual.stationmeasurements);
         for (var i = 0; i < statMea.length; i++) {
             let curStation = statMea[i].stationname;
-            console.log(curStation);
+            let curRegio = statMea[i].regio;
+            console.log(curStation + ' - ' + curRegio + ' - ' + i);
         }
 
         // Temperatuur (header)
@@ -27,12 +28,144 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
 
         // Locatie (header)
         var locatie = document.getElementById('locSelect');
+
         function show() {
             var curLocatie = document.forms[0].locSelect.value;
             console.log(curLocatie);
+            let i = 0;
+            if (curLocatie == 'Meetstation Arcen') {
+                i = 0;
+                curTemp = statMea[i].temperature;
+                temp.innerHTML = curTemp + '°C';
+                console.log(temp.innerHTML);
+                img.src = jsonData.actual.stationmeasurements[i].iconurl; // <-- Het weer icoon
+                var src = document.querySelector('.weer-icoontje');
+                src.appendChild(img);
+            } else if (curLocatie == 'Meetstation Arnhem') {
+                i = 1;
+                curTemp = statMea[i].temperature;
+                temp.innerHTML = curTemp + '°C';
+                console.log(temp.innerHTML);
+                img.src = jsonData.actual.stationmeasurements[i].iconurl; // <-- Het weer icoon
+                var src = document.querySelector('.weer-icoontje');
+                src.appendChild(img);
+            } else if (curLocatie == 'Meetstation Berkhout') {
+                i = 2;
+                curTemp = statMea[i].temperature;
+                temp.innerHTML = curTemp + '°C';
+                console.log(temp.innerHTML);
+                img.src = jsonData.actual.stationmeasurements[i].iconurl; // <-- Het weer icoon
+                var src = document.querySelector('.weer-icoontje');
+                src.appendChild(img);
+            } else if (curLocatie == 'Meetstation Cadzand') {
+                i = 3;
+                curTemp = statMea[i].temperature;
+                temp.innerHTML = curTemp + '°C';
+                console.log(temp.innerHTML);
+                img.src = jsonData.actual.stationmeasurements[i].iconurl; // <-- Het weer icoon
+                var src = document.querySelector('.weer-icoontje');
+                src.appendChild(img);
+            } else if (curLocatie == 'Meetstation De Bilt') {
+                i = 4;
+                curTemp = statMea[i].temperature;
+                temp.innerHTML = curTemp + '°C';
+                console.log(temp.innerHTML);
+                img.src = jsonData.actual.stationmeasurements[i].iconurl; // <-- Het weer icoon
+                var src = document.querySelector('.weer-icoontje');
+                src.appendChild(img);
+            } else if (curLocatie == 'Meetstation Den Helder') {
+                i = 5;
+                curTemp = statMea[i].temperature;
+                temp.innerHTML = curTemp + '°C';
+                console.log(temp.innerHTML);
+                img.src = jsonData.actual.stationmeasurements[i].iconurl; // <-- Het weer icoon
+                var src = document.querySelector('.weer-icoontje');
+                src.appendChild(img);
+            } else if (curLocatie == 'Meetstation Eindhoven') {
+                i = 6;
+                curTemp = statMea[i].temperature;
+                temp.innerHTML = curTemp + '°C';
+                console.log(temp.innerHTML);
+                img.src = jsonData.actual.stationmeasurements[i].iconurl; // <-- Het weer icoon
+                var src = document.querySelector('.weer-icoontje');
+                src.appendChild(img);
+            } else if (curLocatie == 'Meetstation Ell') {
+                i = 7;
+                curTemp = statMea[i].temperature;
+                temp.innerHTML = curTemp + '°C';
+                console.log(temp.innerHTML);
+                img.src = jsonData.actual.stationmeasurements[i].iconurl; // <-- Het weer icoon
+                var src = document.querySelector('.weer-icoontje');
+                src.appendChild(img);
+            } else if (curLocatie == 'Meetstation Europlatform') {
+                i = 8;
+                curTemp = statMea[i].temperature;
+                temp.innerHTML = curTemp + '°C';
+                console.log(temp.innerHTML);
+                img.src = jsonData.actual.stationmeasurements[i].iconurl; // <-- Het weer icoon
+                var src = document.querySelector('.weer-icoontje');
+                src.appendChild(img);
+            } else if (curLocatie == 'Meetstation Gilze RIjen') {
+                i = 9;
+                curTemp = statMea[i].temperature;
+                temp.innerHTML = curTemp + '°C';
+                console.log(temp.innerHTML);
+                img.src = jsonData.actual.stationmeasurements[i].iconurl; // <-- Het weer icoon
+                var src = document.querySelector('.weer-icoontje');
+                src.appendChild(img);
+            } else if (curLocatie == 'Meetstation Goes') {
+                i = 10;
+                curTemp = statMea[i].temperature;
+                temp.innerHTML = curTemp + '°C';
+                console.log(temp.innerHTML);
+                img.src = jsonData.actual.stationmeasurements[i].iconurl; // <-- Het weer icoon
+                var src = document.querySelector('.weer-icoontje');
+                src.appendChild(img);
+            } else if (curLocatie == 'Meetstation Groenlo-Hupsel') {
+                i = 11;
+                curTemp = statMea[i].temperature;
+                temp.innerHTML = curTemp + '°C';
+                console.log(temp.innerHTML);
+                img.src = jsonData.actual.stationmeasurements[i].iconurl; // <-- Het weer icoon
+                var src = document.querySelector('.weer-icoontje');
+                src.appendChild(img);
+            } else if (curLocatie == 'Meetstation Groningen') {
+                i = 12;
+                curTemp = statMea[i].temperature;
+                temp.innerHTML = curTemp + '°C';
+                console.log(temp.innerHTML);
+                img.src = jsonData.actual.stationmeasurements[i].iconurl; // <-- Het weer icoon
+                var src = document.querySelector('.weer-icoontje');
+                src.appendChild(img);
+            } else if (curLocatie == 'Meetstation Hansweert') {
+                i = 13;
+                curTemp = statMea[i].temperature;
+                temp.innerHTML = curTemp + '°C';
+                console.log(temp.innerHTML);
+                img.src = jsonData.actual.stationmeasurements[i].iconurl; // <-- Het weer icoon
+                var src = document.querySelector('.weer-icoontje');
+                src.appendChild(img);
+            } else if (curLocatie == 'Meetstation Heino') {
+                i = 14;
+                curTemp = statMea[i].temperature;
+                temp.innerHTML = curTemp + '°C';
+                console.log(temp.innerHTML);
+                img.src = jsonData.actual.stationmeasurements[i].iconurl; // <-- Het weer icoon
+                var src = document.querySelector('.weer-icoontje');
+                src.appendChild(img);
+            }
         }
+
         locatie.onchange = show;
         show();
+
+        // for (var i = 0; i < statMea.length; i++) {
+        //     if (curLocatie == curStation) {
+        //         console.log('Hoi');
+        //     } else {
+        //         console.log('Doei');
+        //     }
+        // }
     });
 
 // Welkoms bericht
