@@ -26,8 +26,13 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
         console.log(temp.innerHTML);
 
         // Locatie (header)
-        let locatie = document.querySelector('.loca').value.selected;
-        console.log(locatie);
+        var locatie = document.getElementById('locSelect');
+        function show() {
+            var curLocatie = document.forms[0].locSelect.value;
+            console.log(curLocatie);
+        }
+        locatie.onchange = show;
+        show();
     });
 
 // Welkoms bericht
