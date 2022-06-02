@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="nl" dir="ltr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Weerbericht</title>
+        <link rel="stylesheet" type="text/css" href="../css/main.css" />
+        <script src="../js/index.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet"
+        />
+        <meta
+            name="author"
+            content="Santos van der Wansem en Fenne Hoogenboom, V4B"
+        />
+        <meta
+            name="description"
+            content="Weer-app gemaakt met buienradar.nl API"
+        />
+    </head>
+    <body>
+        <label for="locatie">Selecteer je locatie</label>
+        <select name="locatie" id="locatie" value="locatie">
+            <option name="weerstation" value="arcen">Arcen</option>
+            <option name="weerstation" value="arnhem">Arnhem</option>
+            <option name="weerstation" value="berkhout">Berkhout</option>
+            <option name="weerstation" value="cadzand">Cadzand</option>
+            <option name="weerstation" value="de_bilt">De Bilt</option>
+            <option name="weerstation" value="den_helder">Den Helder</option>
+            <option name="weerstation" value="eindhoven">Eindhoven</option>
+            <option name="weerstation" value="ell">Ell</option>
+            <option name="weerstation" value="noordzee">Noordzee</option>
+            <option name="weerstation" value="gilze_rijen">Gilze Rijen</option>
+            <option name="weerstation" value="goes">Goes</option>
+            <option name="weerstation" value="groenlo_hupsel">
+                Groenlo-Hupsel
+            </option>
+            <option name="weerstation" value="groningen">Groningen</option>
+            <option name="weerstation" value="hansweert">Hansweert</option>
+            <option name="weerstation" value="Heino">Heino</option>
+            <option name="weerstation" value="herwijnen">Herwijnen</option>
+            <option name="weerstation" value="hoek_van_holland">
+                Hoek van Holland
+            </option>
+            <option name="weerstation" value="hoorn_terschelling">
+                Hoorn Terschelling
+            </option>
+            <option name="weerstation" value="houtribdijk">Houtribdijk</option>
+            <option name="weerstation" value="huibertgat">Huibertgat</option>
+            <option name="weerstation" value="ijmond">IJmond</option>
+            <option name="weerstation" value="ijmuiden">IJmuiden</option>
+            <option name="weerstation" value="lauwersoog">Lauwersoog</option>
+            <option name="weerstation" value="le_goeree">Le Goeree</option>
+            <option name="weerstation" value="leeuwarden">Leeuwarden</option>
+            <option name="weerstation" value="lelystad">Lelystad</option>
+            <option name="weerstation" value="lopik_cabauw">
+                Lopik-Cabauw
+            </option>
+            <option name="weerstation" value="maastricht">Maastricht</option>
+            <option name="weerstation" value="marknesse">Marknesse</option>
+            <option name="weerstation" value="nieuw_beerta">
+                Nieuw Beerta
+            </option>
+            <option name="weerstation" value="oosterschelde">
+                Oosterschelde
+            </option>
+            <option name="weerstation" value="rotterdam">Rotterdam</option>
+            <option name="weerstation" value="schaar">Schaar</option>
+            <option name="weerstation" value="schiphol">Schiphol</option>
+            <option name="weerstation" value="stavenisse">stavenisse</option>
+            <option name="weerstation" value="stavorenn">Stavoren</option>
+            <option name="weerstation" value="texelhors">Texelhors</option>
+            <option name="weerstation" value="tholen">Tholen</option>
+            <option name="weerstation" value="twente">Twente</option>
+            <option name="weerstation" value="vlakte_raan">
+                Vlakte aan de Raan
+            </option>
+            <option name="weerstation" value="vlieland">Vlieland</option>
+            <option name="weerstation" value="vlissingen">Vlissingen</option>
+            <option name="weerstation" value="volkel">Volkel</option>
+            <option name="weerstation" value="voorschoten">Voorschoten</option>
+            <option name="weerstation" value="westdorpe">Westdorpe</option>
+            <option name="weerstation" value="wijdenes">Wijdenes</option>
+            <option name="weerstation" value="wijk_aan_zee">
+                Wijk aan Zee
+            </option>
+            <option name="weerstation" value="woensdrecht">Woensdrecht</option>
+        </select>
+
+        <h1>Wat is het weer?</h1>
+
+        <h3 class="titel"></h3>
+        <p class="weer-icoontje"></p>
+        <p class="temperatuur"></p>
+    </body>
+</html>
