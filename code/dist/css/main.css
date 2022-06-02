@@ -20,6 +20,7 @@ body *,
 body *::before,
 body *::after {
   all: unset;
+  display: block;
   z-index: 0;
 }
 
@@ -29,4 +30,18 @@ script, head {
 
 div.content p {
   color: hsl(0deg, 0%, 10%);
+}
+
+:root {
+  font-size: 18px;
+}
+
+* {
+  font-family: cabin, sans-serif;
+  line-height: 1.5em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: poppins, sans-serif;
+  font-weight: 600;
 }/*# sourceMappingURL=main.css.map */

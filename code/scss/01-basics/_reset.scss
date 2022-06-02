@@ -22,6 +22,7 @@ body {
     *::before,
     *::after {
         all: unset;
+        display: block;
         z-index: 0;
     }
 }
