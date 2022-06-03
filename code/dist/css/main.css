@@ -46,4 +46,12 @@ html {
 h1 {
   font-size: 3.5rem;
   font-weight: 700;
+}
+
+select {
+  text-decoration: underline;
+}
+
+p.weer-icoontje img {
+  height: 45px;
 }/*# sourceMappingURL=main.css.map */
