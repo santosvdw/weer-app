@@ -17,12 +17,12 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
         for (var i = 0; i < statMea.length; i++) {
             let curStation = statMea[i].stationname;
             let curRegio = statMea[i].regio;
-            console.log(curStation + ' - ' + curRegio + ' - ' + i);
+            console.log(curStation + ' - ' + curRegio + ' - ' + i + ' - ' + curTemp);
         }
 
         // Temperatuur (header)
         let temp = document.querySelector('.temp');
-        let curTemp = statMea[2].temperature;
+        let curTemp = statMea[i].temperature;
         temp.innerHTML = curTemp + '°C';
         console.log(temp.innerHTML);
 
