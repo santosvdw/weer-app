@@ -21,6 +21,7 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
         }
 
         // Temperatuur (header)
+    let i = 2
         let temp = document.querySelector('.temp');
         let curTemp = statMea[i].temperature;
         temp.innerHTML = curTemp + '°C';
@@ -32,7 +33,7 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
         function show() {
             var curLocatie = document.forms[0].locSelect.value;
             console.log(curLocatie);
-            let i = 0;
+             i = 0;
             if (curLocatie == 'Meetstation Arcen') {
                 i = 0;
                 curTemp = statMea[i].temperature;
