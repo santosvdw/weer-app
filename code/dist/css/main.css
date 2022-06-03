@@ -37,18 +37,4 @@ select {
 }
 select option {
   all: unset;
-}
-
-:root {
-  font-size: 18px;
-}
-
-* {
-  font-family: cabin, sans-serif;
-  line-height: 1.5em;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: poppins, sans-serif;
-  font-weight: 600;
 }/*# sourceMappingURL=main.css.map */
