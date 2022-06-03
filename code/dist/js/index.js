@@ -6,7 +6,6 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
         // Hier gaan we de opgehaalde data verwerken!
         console.log(jsonData);
         let statMea = jsonData.actual.stationmeasurements;
-        let forecastData = json.forecast;
         // Weer-icoontje header
         var img = document.createElement('img');
         img.src = statMea[2].iconurl; // <-- Het weer icoon
@@ -19,7 +18,7 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
             let curStation = statMea[i].stationname;
             let curRegio = statMea[i].regio;
             let cuTemp = statMea[i].temperature;
-            //console.log(curStation + ' - ' + curRegio + ' - ' + i + ' - ' + cuTemp);
+            console.log(curStation + ' - ' + curRegio + ' - ' + i + ' - ' + cuTemp);
         }
 
         // Temperatuur (header)
@@ -388,12 +387,6 @@ let pWD03 = document.querySelector('#day03');
 let pWD04 = document.querySelector('#day04');
 let pWD05 = document.querySelector('#day05');
 // Forecast icons
-var forecastImg = document.createElement('img');
-forecastImg.src = forecastData.fivedayforecast[0].iconurl; // <-- Het weer icoon
-var src = document.querySelector('#day01_icon');
-src.appendChild(img);
-function forecastIcons() {}
-forecastIcons();
 
 if (curWeekDay == 'Mon') {
     console.log('Maandag');
