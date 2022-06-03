@@ -6,6 +6,7 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
         // Hier gaan we de opgehaalde data verwerken!
         console.log(jsonData);
         let statMea = jsonData.actual.stationmeasurements;
+        let forecastData = json.forecast;
         // Weer-icoontje header
         var img = document.createElement('img');
         img.src = statMea[2].iconurl; // <-- Het weer icoon
@@ -18,7 +19,7 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
             let curStation = statMea[i].stationname;
             let curRegio = statMea[i].regio;
             let cuTemp = statMea[i].temperature;
-            console.log(curStation + ' - ' + curRegio + ' - ' + i + ' - ' + cuTemp);
+            //console.log(curStation + ' - ' + curRegio + ' - ' + i + ' - ' + cuTemp);
         }
 
         // Temperatuur (header)
@@ -360,7 +361,7 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
 
 // Welkoms bericht
 let greetingEl = document.getElementById('welkom');
-var today = new Date();
+let today = new Date();
 var curHr = today.getHours();
 
 if (curHr < 12) {
@@ -372,4 +373,124 @@ if (curHr < 12) {
 } else {
     console.log('good evening');
     greetingEl.innerHTML = 'Goede avond!';
+}
+
+// Weekdag
+let curWeekDay = Date().substr(0, 3);
+let weekDay01 = 'Dinsdag';
+let weekDay02 = 'Woensdag';
+let weekDay03 = 'Donderdag';
+let weekDay04 = 'Vrijdag';
+let weekDay05 = 'Zaterdag';
+let pWD01 = document.querySelector('#day01');
+let pWD02 = document.querySelector('#day02');
+let pWD03 = document.querySelector('#day03');
+let pWD04 = document.querySelector('#day04');
+let pWD05 = document.querySelector('#day05');
+// Forecast icons
+var forecastImg = document.createElement('img');
+forecastImg.src = forecastData.fivedayforecast[0].iconurl; // <-- Het weer icoon
+var src = document.querySelector('#day01_icon');
+src.appendChild(img);
+function forecastIcons() {}
+forecastIcons();
+
+if (curWeekDay == 'Mon') {
+    console.log('Maandag');
+    curWeekDay = 'Maandag';
+    weekDay01 = 'Dinsdag';
+    weekDay02 = 'Woensdag';
+    weekDay03 = 'Donderdag';
+    weekDay04 = 'Vrijdag';
+    weekDay05 = 'Zaterdag';
+    /////
+    pWD01.innerHTML = weekDay01.substr(0, 3);
+    pWD02.innerHTML = weekDay02.substr(0, 3);
+    pWD03.innerHTML = weekDay03.substr(0, 3);
+    pWD04.innerHTML = weekDay04.substr(0, 3);
+    pWD05.innerHTML = weekDay05.substr(0, 3);
+} else if (curWeekDay == 'Tue') {
+    console.log('Dinsdag');
+    curWeekDay = 'Dinsdag';
+    weekDay01 = 'Woensdag';
+    weekDay02 = 'Donderdag';
+    weekDay03 = 'Vrijdag';
+    weekDay04 = 'Zaterdag';
+    weekDay05 = 'Zondag';
+    /////
+    pWD01.innerHTML = weekDay01.substr(0, 3);
+    pWD02.innerHTML = weekDay02.substr(0, 3);
+    pWD03.innerHTML = weekDay03.substr(0, 3);
+    pWD04.innerHTML = weekDay04.substr(0, 3);
+    pWD05.innerHTML = weekDay05.substr(0, 3);
+} else if (curWeekDay == 'Wed') {
+    console.log('Woensdag');
+    curWeekDay = 'Woensdag';
+    weekDay01 = 'Donderdag';
+    weekDay02 = 'Vrijdag';
+    weekDay03 = 'Zaterdag';
+    weekDay04 = 'Zondag';
+    weekDay05 = 'Maandag';
+    /////
+    pWD01.innerHTML = weekDay01.substr(0, 3);
+    pWD02.innerHTML = weekDay02.substr(0, 3);
+    pWD03.innerHTML = weekDay03.substr(0, 3);
+    pWD04.innerHTML = weekDay04.substr(0, 3);
+    pWD05.innerHTML = weekDay05.substr(0, 3);
+} else if (curWeekDay == 'Thu') {
+    console.log('Donderdag');
+    curWeekDay = 'Donderdag';
+    weekDay01 = 'Vrijdag';
+    weekDay02 = 'Zaterdag';
+    weekDay03 = 'Zondag';
+    weekDay04 = 'Maandag';
+    weekDay05 = 'Dinsdag';
+    /////
+    pWD01.innerHTML = weekDay01.substr(0, 3);
+    pWD02.innerHTML = weekDay02.substr(0, 3);
+    pWD03.innerHTML = weekDay03.substr(0, 3);
+    pWD04.innerHTML = weekDay04.substr(0, 3);
+    pWD05.innerHTML = weekDay05.substr(0, 3);
+} else if (curWeekDay == 'Fri') {
+    console.log('Vrijdag');
+    curWeekDay = 'Vrijdag';
+    weekDay01 = 'Zaterdag';
+    weekDay02 = 'Zondag';
+    weekDay03 = 'Maandag';
+    weekDay04 = 'Dinsdag';
+    weekDay05 = 'Woensdag';
+    /////
+    pWD01.innerHTML = weekDay01.substr(0, 3);
+    pWD02.innerHTML = weekDay02.substr(0, 3);
+    pWD03.innerHTML = weekDay03.substr(0, 3);
+    pWD04.innerHTML = weekDay04.substr(0, 3);
+    pWD05.innerHTML = weekDay05.substr(0, 3);
+} else if (curWeekDay == 'Sat') {
+    console.log('Zaterdag');
+    curWeekDay = 'Zaterdag';
+    weekDay01 = 'Zondag';
+    weekDay02 = 'Maandag';
+    weekDay03 = 'Dinsdag';
+    weekDay04 = 'Woensdag';
+    weekDay05 = 'Donderdag';
+    /////
+    pWD01.innerHTML = weekDay01.substr(0, 3);
+    pWD02.innerHTML = weekDay02.substr(0, 3);
+    pWD03.innerHTML = weekDay03.substr(0, 3);
+    pWD04.innerHTML = weekDay04.substr(0, 3);
+    pWD05.innerHTML = weekDay05.substr(0, 3);
+} else {
+    console.log('Zondag');
+    curWeekDay = 'Zondag';
+    weekDay01 = 'Maandag';
+    weekDay02 = 'Dinsdag';
+    weekDay03 = 'Woensdag';
+    weekDay04 = 'Donderdag';
+    weekDay05 = 'Vrijdag';
+    /////
+    pWD01.innerHTML = weekDay01.substr(0, 3);
+    pWD02.innerHTML = weekDay02.substr(0, 3);
+    pWD03.innerHTML = weekDay03.substr(0, 3);
+    pWD04.innerHTML = weekDay04.substr(0, 3);
+    pWD05.innerHTML = weekDay05.substr(0, 3);
 }

@@ -52,6 +52,14 @@ select {
   text-decoration: underline;
 }
 
+div.temp_card {
+  width: 150px;
+  background-color: grey;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
 p.weer-icoontje img {
   height: 45px;
 }/*# sourceMappingURL=main.css.map */
