@@ -17,13 +17,12 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
         for (var i = 0; i < statMea.length; i++) {
             let curStation = statMea[i].stationname;
             let curRegio = statMea[i].regio;
-            console.log(curStation + ' - ' + curRegio + ' - ' + i + ' - ' + curTemp);
+            console.log(curStation + ' - ' + curRegio + ' - ' + i);
         }
 
         // Temperatuur (header)
-    let i = 2
         let temp = document.querySelector('.temp');
-        let curTemp = statMea[i].temperature;
+        let curTemp = statMea[2].temperature;
         temp.innerHTML = curTemp + '°C';
         console.log(temp.innerHTML);
 
@@ -33,7 +32,7 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
         function show() {
             var curLocatie = document.forms[0].locSelect.value;
             console.log(curLocatie);
-             i = 0;
+            let i = 0;
             if (curLocatie == 'Meetstation Arcen') {
                 i = 0;
                 curTemp = statMea[i].temperature;
