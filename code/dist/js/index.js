@@ -32,8 +32,10 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
 
         function show() {
             var curLocatie = document.forms[0].locSelect.value;
+            let weatherDesc = document.querySelector('.temp_desc');
             console.log(curLocatie);
             let i = 0;
+            let curWeatherDesc = jsonData.actual.stationmeasurements[i].weatherdescription;
             if (curLocatie == 'Meetstation Arcen') {
                 i = 0;
                 curTemp = statMea[i].temperature;
@@ -42,6 +44,9 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
                 img.src = jsonData.actual.stationmeasurements[i].iconurl; // <-- Het weer icoon
                 var src = document.querySelector('.weer-icoontje');
                 src.appendChild(img);
+                curWeatherDesc = jsonData.actual.stationmeasurements[i].weatherdescription;
+                weatherDesc.innerHTML = curWeatherDesc;
+                console.log(weatherDesc.innerHTML);
             } else if (curLocatie == 'Meetstation Arnhem') {
                 i = 1;
                 curTemp = statMea[i].temperature;
@@ -50,6 +55,9 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
                 img.src = jsonData.actual.stationmeasurements[i].iconurl; // <-- Het weer icoon
                 var src = document.querySelector('.weer-icoontje');
                 src.appendChild(img);
+                curWeatherDesc = jsonData.actual.stationmeasurements[i].weatherdescription;
+                weatherDesc.innerHTML = curWeatherDesc;
+                console.log(weatherDesc.innerHTML);
             } else if (curLocatie == 'Meetstation Berkhout') {
                 i = 2;
                 curTemp = statMea[i].temperature;
@@ -58,6 +66,9 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
                 img.src = jsonData.actual.stationmeasurements[i].iconurl; // <-- Het weer icoon
                 var src = document.querySelector('.weer-icoontje');
                 src.appendChild(img);
+                curWeatherDesc = jsonData.actual.stationmeasurements[i].weatherdescription;
+                weatherDesc.innerHTML = curWeatherDesc;
+                console.log(weatherDesc.innerHTML);
             } else if (curLocatie == 'Meetstation De Bilt') {
                 i = 4;
                 curTemp = statMea[i].temperature;
@@ -66,6 +77,9 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
                 img.src = jsonData.actual.stationmeasurements[i].iconurl; // <-- Het weer icoon
                 var src = document.querySelector('.weer-icoontje');
                 src.appendChild(img);
+                curWeatherDesc = jsonData.actual.stationmeasurements[i].weatherdescription;
+                weatherDesc.innerHTML = curWeatherDesc;
+                console.log(weatherDesc.innerHTML);
             } else if (curLocatie == 'Meetstation Den Helder') {
                 i = 5;
                 curTemp = statMea[i].temperature;
@@ -74,6 +88,9 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
                 img.src = jsonData.actual.stationmeasurements[i].iconurl; // <-- Het weer icoon
                 var src = document.querySelector('.weer-icoontje');
                 src.appendChild(img);
+                curWeatherDesc = jsonData.actual.stationmeasurements[i].weatherdescription;
+                weatherDesc.innerHTML = curWeatherDesc;
+                console.log(weatherDesc.innerHTML);
             } else if (curLocatie == 'Meetstation Eindhoven') {
                 i = 6;
                 curTemp = statMea[i].temperature;
@@ -82,6 +99,9 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
                 img.src = jsonData.actual.stationmeasurements[i].iconurl; // <-- Het weer icoon
                 var src = document.querySelector('.weer-icoontje');
                 src.appendChild(img);
+                curWeatherDesc = jsonData.actual.stationmeasurements[i].weatherdescription;
+                weatherDesc.innerHTML = curWeatherDesc;
+                console.log(weatherDesc.innerHTML);
             } else if (curLocatie == 'Meetstation Ell') {
                 i = 7;
                 curTemp = statMea[i].temperature;
@@ -90,6 +110,9 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
                 img.src = jsonData.actual.stationmeasurements[i].iconurl; // <-- Het weer icoon
                 var src = document.querySelector('.weer-icoontje');
                 src.appendChild(img);
+                curWeatherDesc = jsonData.actual.stationmeasurements[i].weatherdescription;
+                weatherDesc.innerHTML = curWeatherDesc;
+                console.log(weatherDesc.innerHTML);
             } else if (curLocatie == 'Meetstation Europlatform') {
                 i = 8;
                 curTemp = statMea[i].temperature;
@@ -98,7 +121,10 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
                 img.src = jsonData.actual.stationmeasurements[i].iconurl; // <-- Het weer icoon
                 var src = document.querySelector('.weer-icoontje');
                 src.appendChild(img);
-            } else if (curLocatie == 'Meetstation Gilze RIjen') {
+                curWeatherDesc = jsonData.actual.stationmeasurements[i].weatherdescription;
+                weatherDesc.innerHTML = curWeatherDesc;
+                console.log(weatherDesc.innerHTML);
+            } else if (curLocatie == 'Meetstation Gilze Rijen') {
                 i = 9;
                 curTemp = statMea[i].temperature;
                 temp.innerHTML = curTemp + '°C';
@@ -106,6 +132,9 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
                 img.src = jsonData.actual.stationmeasurements[i].iconurl; // <-- Het weer icoon
                 var src = document.querySelector('.weer-icoontje');
                 src.appendChild(img);
+                curWeatherDesc = jsonData.actual.stationmeasurements[i].weatherdescription;
+                weatherDesc.innerHTML = curWeatherDesc;
+                console.log(weatherDesc.innerHTML);
             } else if (curLocatie == 'Meetstation Goes') {
                 i = 10;
                 curTemp = statMea[i].temperature;
@@ -114,6 +143,9 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
                 img.src = jsonData.actual.stationmeasurements[i].iconurl; // <-- Het weer icoon
                 var src = document.querySelector('.weer-icoontje');
                 src.appendChild(img);
+                curWeatherDesc = jsonData.actual.stationmeasurements[i].weatherdescription;
+                weatherDesc.innerHTML = curWeatherDesc;
+                console.log(weatherDesc.innerHTML);
             } else if (curLocatie == 'Meetstation Groenlo-Hupsel') {
                 i = 11;
                 curTemp = statMea[i].temperature;
@@ -122,6 +154,9 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
                 img.src = jsonData.actual.stationmeasurements[i].iconurl; // <-- Het weer icoon
                 var src = document.querySelector('.weer-icoontje');
                 src.appendChild(img);
+                curWeatherDesc = jsonData.actual.stationmeasurements[i].weatherdescription;
+                weatherDesc.innerHTML = curWeatherDesc;
+                console.log(weatherDesc.innerHTML);
             } else if (curLocatie == 'Meetstation Groningen') {
                 i = 12;
                 curTemp = statMea[i].temperature;
@@ -130,6 +165,9 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
                 img.src = jsonData.actual.stationmeasurements[i].iconurl; // <-- Het weer icoon
                 var src = document.querySelector('.weer-icoontje');
                 src.appendChild(img);
+                curWeatherDesc = jsonData.actual.stationmeasurements[i].weatherdescription;
+                weatherDesc.innerHTML = curWeatherDesc;
+                console.log(weatherDesc.innerHTML);
             } else if (curLocatie == 'Meetstation Hansweert') {
                 i = 13;
                 curTemp = statMea[i].temperature;
@@ -138,6 +176,9 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
                 img.src = jsonData.actual.stationmeasurements[i].iconurl; // <-- Het weer icoon
                 var src = document.querySelector('.weer-icoontje');
                 src.appendChild(img);
+                curWeatherDesc = jsonData.actual.stationmeasurements[i].weatherdescription;
+                weatherDesc.innerHTML = curWeatherDesc;
+                console.log(weatherDesc.innerHTML);
             } else if (curLocatie == 'Meetstation Heino') {
                 i = 14;
                 curTemp = statMea[i].temperature;
@@ -146,6 +187,9 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
                 img.src = jsonData.actual.stationmeasurements[i].iconurl; // <-- Het weer icoon
                 var src = document.querySelector('.weer-icoontje');
                 src.appendChild(img);
+                curWeatherDesc = jsonData.actual.stationmeasurements[i].weatherdescription;
+                weatherDesc.innerHTML = curWeatherDesc;
+                console.log(weatherDesc.innerHTML);
             } else if (curLocatie == 'Meetstation Herwijnen') {
                 i = 15;
                 curTemp = statMea[i].temperature;
@@ -154,6 +198,9 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
                 img.src = jsonData.actual.stationmeasurements[i].iconurl; // <-- Het weer icoon
                 var src = document.querySelector('.weer-icoontje');
                 src.appendChild(img);
+                curWeatherDesc = jsonData.actual.stationmeasurements[i].weatherdescription;
+                weatherDesc.innerHTML = curWeatherDesc;
+                console.log(weatherDesc.innerHTML);
             } else if (curLocatie == 'Meetstation Hoek van Holland') {
                 i = 16;
                 curTemp = statMea[i].temperature;
@@ -162,6 +209,9 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
                 img.src = jsonData.actual.stationmeasurements[i].iconurl; // <-- Het weer icoon
                 var src = document.querySelector('.weer-icoontje');
                 src.appendChild(img);
+                curWeatherDesc = jsonData.actual.stationmeasurements[i].weatherdescription;
+                weatherDesc.innerHTML = curWeatherDesc;
+                console.log(weatherDesc.innerHTML);
             } else if (curLocatie == 'Meetstation Hoogeveen') {
                 i = 17;
                 curTemp = statMea[i].temperature;
@@ -170,6 +220,9 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
                 img.src = jsonData.actual.stationmeasurements[i].iconurl; // <-- Het weer icoon
                 var src = document.querySelector('.weer-icoontje');
                 src.appendChild(img);
+                curWeatherDesc = jsonData.actual.stationmeasurements[i].weatherdescription;
+                weatherDesc.innerHTML = curWeatherDesc;
+                console.log(weatherDesc.innerHTML);
             } else if (curLocatie == 'Meetstation Hoorn Terschelling') {
                 i = 18;
                 curTemp = statMea[i].temperature;
@@ -178,6 +231,7 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
                 img.src = jsonData.actual.stationmeasurements[i].iconurl; // <-- Het weer icoon
                 var src = document.querySelector('.weer-icoontje');
                 src.appendChild(img);
+                curWeatherDesc = jsonData.actual.stationmeasurements[i].weatherdescription;
             } else if (curLocatie == 'Meetstation Houtribdijk') {
                 i = 19;
                 curTemp = statMea[i].temperature;
@@ -186,6 +240,9 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
                 img.src = jsonData.actual.stationmeasurements[i].iconurl; // <-- Het weer icoon
                 var src = document.querySelector('.weer-icoontje');
                 src.appendChild(img);
+                curWeatherDesc = jsonData.actual.stationmeasurements[i].weatherdescription;
+                weatherDesc.innerHTML = curWeatherDesc;
+                console.log(weatherDesc.innerHTML);
             } else if (curLocatie == 'Meetstation Lauwersoog') {
                 i = 23;
                 curTemp = statMea[i].temperature;
@@ -194,6 +251,9 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
                 img.src = jsonData.actual.stationmeasurements[i].iconurl; // <-- Het weer icoon
                 var src = document.querySelector('.weer-icoontje');
                 src.appendChild(img);
+                curWeatherDesc = jsonData.actual.stationmeasurements[i].weatherdescription;
+                weatherDesc.innerHTML = curWeatherDesc;
+                console.log(weatherDesc.innerHTML);
             } else if (curLocatie == 'Meetstation Leeuwarden') {
                 i = 24;
                 curTemp = statMea[i].temperature;
@@ -202,6 +262,9 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
                 img.src = jsonData.actual.stationmeasurements[i].iconurl; // <-- Het weer icoon
                 var src = document.querySelector('.weer-icoontje');
                 src.appendChild(img);
+                curWeatherDesc = jsonData.actual.stationmeasurements[i].weatherdescription;
+                weatherDesc.innerHTML = curWeatherDesc;
+                console.log(weatherDesc.innerHTML);
             } else if (curLocatie == 'Meetstation Lelystad') {
                 i = 26;
                 curTemp = statMea[i].temperature;
@@ -210,6 +273,9 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
                 img.src = jsonData.actual.stationmeasurements[i].iconurl; // <-- Het weer icoon
                 var src = document.querySelector('.weer-icoontje');
                 src.appendChild(img);
+                curWeatherDesc = jsonData.actual.stationmeasurements[i].weatherdescription;
+                weatherDesc.innerHTML = curWeatherDesc;
+                console.log(weatherDesc.innerHTML);
             } else if (curLocatie == 'Meetstation Lopik-Cabauw') {
                 i = 27;
                 curTemp = statMea[i].temperature;
@@ -218,6 +284,9 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
                 img.src = jsonData.actual.stationmeasurements[i].iconurl; // <-- Het weer icoon
                 var src = document.querySelector('.weer-icoontje');
                 src.appendChild(img);
+                curWeatherDesc = jsonData.actual.stationmeasurements[i].weatherdescription;
+                weatherDesc.innerHTML = curWeatherDesc;
+                console.log(weatherDesc.innerHTML);
             } else if (curLocatie == 'Meetstation Maastricht') {
                 i = 28;
                 curTemp = statMea[i].temperature;
@@ -226,6 +295,9 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
                 img.src = jsonData.actual.stationmeasurements[i].iconurl; // <-- Het weer icoon
                 var src = document.querySelector('.weer-icoontje');
                 src.appendChild(img);
+                curWeatherDesc = jsonData.actual.stationmeasurements[i].weatherdescription;
+                weatherDesc.innerHTML = curWeatherDesc;
+                console.log(weatherDesc.innerHTML);
             } else if (curLocatie == 'Meetstation Marknesse') {
                 i = 29;
                 curTemp = statMea[i].temperature;
@@ -234,6 +306,9 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
                 img.src = jsonData.actual.stationmeasurements[i].iconurl; // <-- Het weer icoon
                 var src = document.querySelector('.weer-icoontje');
                 src.appendChild(img);
+                curWeatherDesc = jsonData.actual.stationmeasurements[i].weatherdescription;
+                weatherDesc.innerHTML = curWeatherDesc;
+                console.log(weatherDesc.innerHTML);
             } else if (curLocatie == 'Meetstation Nieuw Beerta') {
                 i = 30;
                 curTemp = statMea[i].temperature;
@@ -242,6 +317,9 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
                 img.src = jsonData.actual.stationmeasurements[i].iconurl; // <-- Het weer icoon
                 var src = document.querySelector('.weer-icoontje');
                 src.appendChild(img);
+                curWeatherDesc = jsonData.actual.stationmeasurements[i].weatherdescription;
+                weatherDesc.innerHTML = curWeatherDesc;
+                console.log(weatherDesc.innerHTML);
             } else if (curLocatie == 'Meetstation Rotterdam') {
                 i = 32;
                 curTemp = statMea[i].temperature;
@@ -250,6 +328,9 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
                 img.src = jsonData.actual.stationmeasurements[i].iconurl; // <-- Het weer icoon
                 var src = document.querySelector('.weer-icoontje');
                 src.appendChild(img);
+                curWeatherDesc = jsonData.actual.stationmeasurements[i].weatherdescription;
+                weatherDesc.innerHTML = curWeatherDesc;
+                console.log(weatherDesc.innerHTML);
             } else if (curLocatie == 'Meetstation Rotterdam Geulhaven') {
                 i = 33;
                 curTemp = statMea[i].temperature;
@@ -258,6 +339,9 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
                 img.src = jsonData.actual.stationmeasurements[i].iconurl; // <-- Het weer icoon
                 var src = document.querySelector('.weer-icoontje');
                 src.appendChild(img);
+                curWeatherDesc = jsonData.actual.stationmeasurements[i].weatherdescription;
+                weatherDesc.innerHTML = curWeatherDesc;
+                console.log(weatherDesc.innerHTML);
             } else if (curLocatie == 'Meetstation Schiphol') {
                 i = 35;
                 curTemp = statMea[i].temperature;
@@ -266,6 +350,9 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
                 img.src = jsonData.actual.stationmeasurements[i].iconurl; // <-- Het weer icoon
                 var src = document.querySelector('.weer-icoontje');
                 src.appendChild(img);
+                curWeatherDesc = jsonData.actual.stationmeasurements[i].weatherdescription;
+                weatherDesc.innerHTML = curWeatherDesc;
+                console.log(weatherDesc.innerHTML);
             } else if (curLocatie == 'Meetstation Stavoren') {
                 i = 37;
                 curTemp = statMea[i].temperature;
@@ -274,6 +361,9 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
                 img.src = jsonData.actual.stationmeasurements[i].iconurl; // <-- Het weer icoon
                 var src = document.querySelector('.weer-icoontje');
                 src.appendChild(img);
+                curWeatherDesc = jsonData.actual.stationmeasurements[i].weatherdescription;
+                weatherDesc.innerHTML = curWeatherDesc;
+                console.log(weatherDesc.innerHTML);
             } else if (curLocatie == 'Meetstation Twente') {
                 i = 40;
                 curTemp = statMea[i].temperature;
@@ -282,6 +372,9 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
                 img.src = jsonData.actual.stationmeasurements[i].iconurl; // <-- Het weer icoon
                 var src = document.querySelector('.weer-icoontje');
                 src.appendChild(img);
+                curWeatherDesc = jsonData.actual.stationmeasurements[i].weatherdescription;
+                weatherDesc.innerHTML = curWeatherDesc;
+                console.log(weatherDesc.innerHTML);
             } else if (curLocatie == 'Meetstation Vlieland') {
                 i = 42;
                 curTemp = statMea[i].temperature;
@@ -290,6 +383,9 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
                 img.src = jsonData.actual.stationmeasurements[i].iconurl; // <-- Het weer icoon
                 var src = document.querySelector('.weer-icoontje');
                 src.appendChild(img);
+                curWeatherDesc = jsonData.actual.stationmeasurements[i].weatherdescription;
+                weatherDesc.innerHTML = curWeatherDesc;
+                console.log(weatherDesc.innerHTML);
             } else if (curLocatie == 'Meetstation Vlissingen') {
                 i = 42;
                 curTemp = statMea[i].temperature;
@@ -298,6 +394,9 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
                 img.src = jsonData.actual.stationmeasurements[i].iconurl; // <-- Het weer icoon
                 var src = document.querySelector('.weer-icoontje');
                 src.appendChild(img);
+                curWeatherDesc = jsonData.actual.stationmeasurements[i].weatherdescription;
+                weatherDesc.innerHTML = curWeatherDesc;
+                console.log(weatherDesc.innerHTML);
             } else if (curLocatie == 'Meetstation Volkel') {
                 i = 44;
                 curTemp = statMea[i].temperature;
@@ -306,6 +405,9 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
                 img.src = jsonData.actual.stationmeasurements[i].iconurl; // <-- Het weer icoon
                 var src = document.querySelector('.weer-icoontje');
                 src.appendChild(img);
+                curWeatherDesc = jsonData.actual.stationmeasurements[i].weatherdescription;
+                weatherDesc.innerHTML = curWeatherDesc;
+                console.log(weatherDesc.innerHTML);
             } else if (curLocatie == 'Meetstation Voorschoten') {
                 i = 45;
                 curTemp = statMea[i].temperature;
@@ -314,6 +416,9 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
                 img.src = jsonData.actual.stationmeasurements[i].iconurl; // <-- Het weer icoon
                 var src = document.querySelector('.weer-icoontje');
                 src.appendChild(img);
+                curWeatherDesc = jsonData.actual.stationmeasurements[i].weatherdescription;
+                weatherDesc.innerHTML = curWeatherDesc;
+                console.log(weatherDesc.innerHTML);
             } else if (curLocatie == 'Meetstation Westdopre') {
                 i = 46;
                 curTemp = statMea[i].temperature;
@@ -322,6 +427,9 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
                 img.src = jsonData.actual.stationmeasurements[i].iconurl; // <-- Het weer icoon
                 var src = document.querySelector('.weer-icoontje');
                 src.appendChild(img);
+                curWeatherDesc = jsonData.actual.stationmeasurements[i].weatherdescription;
+                weatherDesc.innerHTML = curWeatherDesc;
+                console.log(weatherDesc.innerHTML);
             } else if (curLocatie == 'Meetstation Wijk aan Zee') {
                 i = 48;
                 curTemp = statMea[i].temperature;
@@ -330,6 +438,9 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
                 img.src = jsonData.actual.stationmeasurements[i].iconurl; // <-- Het weer icoon
                 var src = document.querySelector('.weer-icoontje');
                 src.appendChild(img);
+                curWeatherDesc = jsonData.actual.stationmeasurements[i].weatherdescription;
+                weatherDesc.innerHTML = curWeatherDesc;
+                console.log(weatherDesc.innerHTML);
             } else if (curLocatie == 'Meetstation Woensdrecht') {
                 i = 49;
                 curTemp = statMea[i].temperature;
@@ -338,31 +449,93 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
                 img.src = jsonData.actual.stationmeasurements[i].iconurl; // <-- Het weer icoon
                 var src = document.querySelector('.weer-icoontje');
                 src.appendChild(img);
+                curWeatherDesc = jsonData.actual.stationmeasurements[i].weatherdescription;
+                weatherDesc.innerHTML = curWeatherDesc;
+                console.log(weatherDesc.innerHTML);
             } else {
                 i = 0;
                 curTemp = statMea[i].temperature;
                 temp.innerHTML = 'ERROR';
                 console.log(temp.innerHTML);
+                weatherDesc.innerHTML = curWeatherDesc;
+                console.log(weatherDesc.innerHTML);
             }
         }
 
+        // fivedayforecast icons
+        function forecastIcon01() {
+            // day1
+            var img = document.createElement('img');
+            img.src = jsonData.forecast.fivedayforecast[0].iconurl; // <-- Het weer icoon
+            var src = document.querySelector('#day01_icon');
+            src.appendChild(img);
+            console.log(img.src);
+        }
+        function forecastIcon02() {
+            // day2
+            var img = document.createElement('img');
+            img.src = jsonData.forecast.fivedayforecast[1].iconurl; // <-- Het weer icoon
+            var src = document.querySelector('#day02_icon');
+            src.appendChild(img);
+            console.log(img.src);
+        }
+        function forecastIcon03() {
+            // day3
+            var img = document.createElement('img');
+            img.src = jsonData.forecast.fivedayforecast[2].iconurl; // <-- Het weer icoon
+            var src = document.querySelector('#day03_icon');
+            src.appendChild(img);
+            console.log(img.src);
+        }
+        function forecastIcon04() {
+            // day4
+            var img = document.createElement('img');
+            img.src = jsonData.forecast.fivedayforecast[3].iconurl; // <-- Het weer icoon
+            var src = document.querySelector('#day04_icon');
+            src.appendChild(img);
+            console.log(img.src);
+        }
+        function forecastIcon05() {
+            // day5
+            var img = document.createElement('img');
+            img.src = jsonData.forecast.fivedayforecast[4].iconurl; // <-- Het weer icoon
+            var src = document.querySelector('#day05_icon');
+            src.appendChild(img);
+            console.log(img.src);
+        }
+
+        forecastIcon01();
+        forecastIcon02();
+        forecastIcon03();
+        forecastIcon04();
+        forecastIcon05();
+
+        function minMaxForecast() {
+            document.querySelector('#max-temp01').innerHTML = jsonData.forecast.fivedayforecast[0].maxtemperatureMax + '°C';
+            document.querySelector('#max-temp02').innerHTML = jsonData.forecast.fivedayforecast[1].maxtemperatureMax + '°C';
+            document.querySelector('#max-temp03').innerHTML = jsonData.forecast.fivedayforecast[2].maxtemperatureMax + '°C';
+            document.querySelector('#max-temp04').innerHTML = jsonData.forecast.fivedayforecast[3].maxtemperatureMax + '°C';
+            document.querySelector('#max-temp05').innerHTML = jsonData.forecast.fivedayforecast[4].maxtemperatureMax + '°C';
+            document.querySelector('#min-temp01').innerHTML = jsonData.forecast.fivedayforecast[0].mintemperatureMin + '°C';
+            document.querySelector('#min-temp02').innerHTML = jsonData.forecast.fivedayforecast[1].mintemperatureMin + '°C';
+            document.querySelector('#min-temp03').innerHTML = jsonData.forecast.fivedayforecast[2].mintemperatureMin + '°C';
+            document.querySelector('#min-temp04').innerHTML = jsonData.forecast.fivedayforecast[3].mintemperatureMin + '°C';
+            document.querySelector('#min-temp05').innerHTML = jsonData.forecast.fivedayforecast[4].mintemperatureMin + '°C';
+        }
+
+        minMaxForecast();
+
         locatie.onchange = show;
         show();
-
-        // for (var i = 0; i < statMea.length; i++) {
-        //     if (curLocatie == curStation) {
-        //         console.log('Hoi');
-        //     } else {
-        //         console.log('Doei');
-        //     }
-        // }
     });
 
 // Welkoms bericht
 let greetingEl = document.getElementById('welkom');
 let today = new Date();
+var time = today.getHours() + ':' + today.getMinutes();
 var curHr = today.getHours();
 
+document.querySelector('.time').innerHTML = time;
 if (curHr < 12) {
     console.log('good morning');
     greetingEl.innerHTML = 'Goede ochtend!';
@@ -375,7 +548,7 @@ if (curHr < 12) {
 }
 
 // Weekdag
-let curWeekDay = Date().substr(0, 3);
+let curWeekDay = Date().substr(0, 2);
 let weekDay01 = 'Dinsdag';
 let weekDay02 = 'Woensdag';
 let weekDay03 = 'Donderdag';
@@ -397,11 +570,12 @@ if (curWeekDay == 'Mon') {
     weekDay04 = 'Vrijdag';
     weekDay05 = 'Zaterdag';
     /////
-    pWD01.innerHTML = weekDay01.substr(0, 3);
-    pWD02.innerHTML = weekDay02.substr(0, 3);
-    pWD03.innerHTML = weekDay03.substr(0, 3);
-    pWD04.innerHTML = weekDay04.substr(0, 3);
-    pWD05.innerHTML = weekDay05.substr(0, 3);
+    document.querySelector('.weekdag').innerHTML = curWeekDay;
+    pWD01.innerHTML = weekDay01.substr(0, 2);
+    pWD02.innerHTML = weekDay02.substr(0, 2);
+    pWD03.innerHTML = weekDay03.substr(0, 2);
+    pWD04.innerHTML = weekDay04.substr(0, 2);
+    pWD05.innerHTML = weekDay05.substr(0, 2);
 } else if (curWeekDay == 'Tue') {
     console.log('Dinsdag');
     curWeekDay = 'Dinsdag';
@@ -411,11 +585,12 @@ if (curWeekDay == 'Mon') {
     weekDay04 = 'Zaterdag';
     weekDay05 = 'Zondag';
     /////
-    pWD01.innerHTML = weekDay01.substr(0, 3);
-    pWD02.innerHTML = weekDay02.substr(0, 3);
-    pWD03.innerHTML = weekDay03.substr(0, 3);
-    pWD04.innerHTML = weekDay04.substr(0, 3);
-    pWD05.innerHTML = weekDay05.substr(0, 3);
+    document.querySelector('.weekdag').innerHTML = curWeekDay;
+    pWD01.innerHTML = weekDay01.substr(0, 2);
+    pWD02.innerHTML = weekDay02.substr(0, 2);
+    pWD03.innerHTML = weekDay03.substr(0, 2);
+    pWD04.innerHTML = weekDay04.substr(0, 2);
+    pWD05.innerHTML = weekDay05.substr(0, 2);
 } else if (curWeekDay == 'Wed') {
     console.log('Woensdag');
     curWeekDay = 'Woensdag';
@@ -425,11 +600,12 @@ if (curWeekDay == 'Mon') {
     weekDay04 = 'Zondag';
     weekDay05 = 'Maandag';
     /////
-    pWD01.innerHTML = weekDay01.substr(0, 3);
-    pWD02.innerHTML = weekDay02.substr(0, 3);
-    pWD03.innerHTML = weekDay03.substr(0, 3);
-    pWD04.innerHTML = weekDay04.substr(0, 3);
-    pWD05.innerHTML = weekDay05.substr(0, 3);
+    document.querySelector('.weekdag').innerHTML = curWeekDay;
+    pWD01.innerHTML = weekDay01.substr(0, 2);
+    pWD02.innerHTML = weekDay02.substr(0, 2);
+    pWD03.innerHTML = weekDay03.substr(0, 2);
+    pWD04.innerHTML = weekDay04.substr(0, 2);
+    pWD05.innerHTML = weekDay05.substr(0, 2);
 } else if (curWeekDay == 'Thu') {
     console.log('Donderdag');
     curWeekDay = 'Donderdag';
@@ -439,11 +615,12 @@ if (curWeekDay == 'Mon') {
     weekDay04 = 'Maandag';
     weekDay05 = 'Dinsdag';
     /////
-    pWD01.innerHTML = weekDay01.substr(0, 3);
-    pWD02.innerHTML = weekDay02.substr(0, 3);
-    pWD03.innerHTML = weekDay03.substr(0, 3);
-    pWD04.innerHTML = weekDay04.substr(0, 3);
-    pWD05.innerHTML = weekDay05.substr(0, 3);
+    document.querySelector('.weekdag').innerHTML = curWeekDay;
+    pWD01.innerHTML = weekDay01.substr(0, 2);
+    pWD02.innerHTML = weekDay02.substr(0, 2);
+    pWD03.innerHTML = weekDay03.substr(0, 2);
+    pWD04.innerHTML = weekDay04.substr(0, 2);
+    pWD05.innerHTML = weekDay05.substr(0, 2);
 } else if (curWeekDay == 'Fri') {
     console.log('Vrijdag');
     curWeekDay = 'Vrijdag';
@@ -453,11 +630,12 @@ if (curWeekDay == 'Mon') {
     weekDay04 = 'Dinsdag';
     weekDay05 = 'Woensdag';
     /////
-    pWD01.innerHTML = weekDay01.substr(0, 3);
-    pWD02.innerHTML = weekDay02.substr(0, 3);
-    pWD03.innerHTML = weekDay03.substr(0, 3);
-    pWD04.innerHTML = weekDay04.substr(0, 3);
-    pWD05.innerHTML = weekDay05.substr(0, 3);
+    document.querySelector('.weekdag').innerHTML = curWeekDay;
+    pWD01.innerHTML = weekDay01.substr(0, 2);
+    pWD02.innerHTML = weekDay02.substr(0, 2);
+    pWD03.innerHTML = weekDay03.substr(0, 2);
+    pWD04.innerHTML = weekDay04.substr(0, 2);
+    pWD05.innerHTML = weekDay05.substr(0, 2);
 } else if (curWeekDay == 'Sat') {
     console.log('Zaterdag');
     curWeekDay = 'Zaterdag';
@@ -467,11 +645,12 @@ if (curWeekDay == 'Mon') {
     weekDay04 = 'Woensdag';
     weekDay05 = 'Donderdag';
     /////
-    pWD01.innerHTML = weekDay01.substr(0, 3);
-    pWD02.innerHTML = weekDay02.substr(0, 3);
-    pWD03.innerHTML = weekDay03.substr(0, 3);
-    pWD04.innerHTML = weekDay04.substr(0, 3);
-    pWD05.innerHTML = weekDay05.substr(0, 3);
+    document.querySelector('.weekdag').innerHTML = curWeekDay;
+    pWD01.innerHTML = weekDay01.substr(0, 2);
+    pWD02.innerHTML = weekDay02.substr(0, 2);
+    pWD03.innerHTML = weekDay03.substr(0, 2);
+    pWD04.innerHTML = weekDay04.substr(0, 2);
+    pWD05.innerHTML = weekDay05.substr(0, 2);
 } else {
     console.log('Zondag');
     curWeekDay = 'Zondag';
@@ -481,9 +660,10 @@ if (curWeekDay == 'Mon') {
     weekDay04 = 'Donderdag';
     weekDay05 = 'Vrijdag';
     /////
-    pWD01.innerHTML = weekDay01.substr(0, 3);
-    pWD02.innerHTML = weekDay02.substr(0, 3);
-    pWD03.innerHTML = weekDay03.substr(0, 3);
-    pWD04.innerHTML = weekDay04.substr(0, 3);
-    pWD05.innerHTML = weekDay05.substr(0, 3);
+    document.querySelector('.weekdag').innerHTML = curWeekDay;
+    pWD01.innerHTML = weekDay01.substr(0, 2);
+    pWD02.innerHTML = weekDay02.substr(0, 2);
+    pWD03.innerHTML = weekDay03.substr(0, 2);
+    pWD04.innerHTML = weekDay04.substr(0, 2);
+    pWD05.innerHTML = weekDay05.substr(0, 2);
 }
