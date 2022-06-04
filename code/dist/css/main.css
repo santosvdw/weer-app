@@ -58,8 +58,17 @@ div.temp_card {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
+  border-radius: 40px;
+  display: inherit;
+  justify-content: center;
+  height: 200px;
 }
 
 p.weer-icoontje img {
   height: 45px;
+}
+
+div.cards {
+  display: flex;
+  flex-flow: row wrap;
 }/*# sourceMappingURL=main.css.map */

@@ -1,1 +1,6 @@
 @import '../01-basics/variables';
+
+div.cards {
+    display: flex;
+    flex-flow: row wrap;
+}
