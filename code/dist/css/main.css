@@ -62,6 +62,11 @@ div.temp_card {
   display: inherit;
   justify-content: center;
   height: 200px;
+  flex-flow: column wrap;
+}
+div.temp_card div {
+  display: inherit;
+  flex-flow: row wrap;
 }
 
 p.weer-icoontje img {

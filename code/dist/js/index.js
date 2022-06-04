@@ -532,7 +532,27 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
 // Welkoms bericht
 let greetingEl = document.getElementById('welkom');
 let today = new Date();
-var time = today.getHours() + ':' + today.getMinutes();
+let minutes = today.getMinutes();
+if (minutes == 1) {
+    minutes = '01';
+} else if (minutes == 2) {
+    minutes = '02';
+} else if (minutes == 3) {
+    minutes = '03';
+} else if (minutes == 4) {
+    minutes = '04';
+} else if (minutes == 5) {
+    minutes = '05';
+} else if (minutes == 6) {
+    minutes = '06';
+} else if (minutes == 7) {
+    minutes = '07';
+} else if (minutes == 8) {
+    minutes = '08';
+} else if (minutes == 9) {
+    minutes = '09';
+}
+var time = today.getHours() + ':' + minutes;
 var curHr = today.getHours();
 
 document.querySelector('.time').innerHTML = time;
