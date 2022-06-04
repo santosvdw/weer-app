@@ -54,7 +54,7 @@ select {
 
 div.temp_card {
   width: 150px;
-  background-color: grey;
+  background-color: rgba(128, 128, 128, 0.3);
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -68,7 +68,15 @@ p.weer-icoontje img {
   height: 45px;
 }
 
+div.container {
+  width: 90vw;
+  height: 100%;
+  background-color: rgb(219, 219, 219);
+  margin: 0 auto;
+}
+
 div.cards {
   display: flex;
   flex-flow: row wrap;
+  justify-content: space-between;
 }/*# sourceMappingURL=main.css.map */

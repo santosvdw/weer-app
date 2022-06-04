@@ -1,1 +1,8 @@
 @import '../01-basics/variables';
+
+div.container {
+    width: 90vw;
+    height: 100%;
+    background-color: rgb(219, 219, 219);
+    margin: 0 auto;
+}
