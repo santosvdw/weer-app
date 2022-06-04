@@ -29,6 +29,66 @@ html {
   }
 }
 html {
+  font-family: cabin, sans-serif;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 1025px) {
+  html {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  html {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  html {
+    font-size: 22px;
+  }
+}
+@media screen and (min-width: 1770px) {
+  html {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 2000px) {
+  html {
+    font-size: 30px;
+  }
+}
+html {
+  font-family: cabin, sans-serif;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 1025px) {
+  html {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  html {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  html {
+    font-size: 22px;
+  }
+}
+@media screen and (min-width: 1770px) {
+  html {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 2000px) {
+  html {
+    font-size: 30px;
+  }
+}
+html {
   box-sizing: border-box;
 }
 
@@ -104,6 +164,36 @@ h1 {
   font-weight: 700;
 }
 
+html {
+  font-family: cabin, sans-serif;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 1025px) {
+  html {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  html {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  html {
+    font-size: 22px;
+  }
+}
+@media screen and (min-width: 1770px) {
+  html {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 2000px) {
+  html {
+    font-size: 30px;
+  }
+}
 form {
   display: flex;
   flex-flow: row wrap;
@@ -124,6 +214,36 @@ select option {
   font-size: 1rem;
 }
 
+html {
+  font-family: cabin, sans-serif;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 1025px) {
+  html {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  html {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  html {
+    font-size: 22px;
+  }
+}
+@media screen and (min-width: 1770px) {
+  html {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 2000px) {
+  html {
+    font-size: 30px;
+  }
+}
 div.temp_card {
   width: 9.375rem;
   background-color: rgba(128, 128, 128, 0.3);
@@ -150,10 +270,70 @@ div.temp_card div.card_content div {
   width: 120%;
 }
 
+html {
+  font-family: cabin, sans-serif;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 1025px) {
+  html {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  html {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  html {
+    font-size: 22px;
+  }
+}
+@media screen and (min-width: 1770px) {
+  html {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 2000px) {
+  html {
+    font-size: 30px;
+  }
+}
 p.weer-icoontje img {
   height: 45px;
 }
 
+html {
+  font-family: cabin, sans-serif;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 1025px) {
+  html {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  html {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  html {
+    font-size: 22px;
+  }
+}
+@media screen and (min-width: 1770px) {
+  html {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 2000px) {
+  html {
+    font-size: 30px;
+  }
+}
 body {
   display: flex;
   align-items: center;
@@ -169,6 +349,36 @@ div.container {
   height: fit-content;
 }
 
+html {
+  font-family: cabin, sans-serif;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 1025px) {
+  html {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  html {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  html {
+    font-size: 22px;
+  }
+}
+@media screen and (min-width: 1770px) {
+  html {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 2000px) {
+  html {
+    font-size: 30px;
+  }
+}
 div.cards {
   display: flex;
   flex-flow: row wrap;
@@ -182,10 +392,70 @@ div.cards img {
   height: 60px;
 }
 
+html {
+  font-family: cabin, sans-serif;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 1025px) {
+  html {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  html {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  html {
+    font-size: 22px;
+  }
+}
+@media screen and (min-width: 1770px) {
+  html {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 2000px) {
+  html {
+    font-size: 30px;
+  }
+}
 header {
   margin-top: 5vh;
 }
 
+html {
+  font-family: cabin, sans-serif;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 1025px) {
+  html {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  html {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  html {
+    font-size: 22px;
+  }
+}
+@media screen and (min-width: 1770px) {
+  html {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 2000px) {
+  html {
+    font-size: 30px;
+  }
+}
 div.kt_wv {
   margin: 7.5vh 0;
   display: flex;
