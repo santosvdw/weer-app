@@ -1,12 +1,15 @@
-@import './01-basics/reset';
-@import './01-basics/typography';
-@import './01-basics/variables';
+@import './01-usables/breakpoints';
+@import './01-usables/usables';
+@import './01-usables/variables';
 
-@import './02-components/select';
-@import './02-components/weather-card';
-@import './02-components/weather-icon';
+@import './02-basics/reset';
+@import './02-basics/typography';
 
-@import './03-layout/container';
-@import './03-layout/fiveDayForecast';
-@import './03-layout/header';
-@import './03-layout/shortTermForecast';
+@import './03-components/select';
+@import './03-components/weather-card';
+@import './03-components/weather-icon';
+
+@import './04-layout/container';
+@import './04-layout/fiveDayForecast';
+@import './04-layout/header';
+@import './04-layout/shortTermForecast';

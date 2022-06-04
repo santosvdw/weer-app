@@ -1,13 +1,8 @@
-@import '../01-basics/variables';
+@import '../01-usables/usables';
 
 html {
     font-family: cabin, sans-serif;
     font-size: 16px;
-}
-
-h1 {
-    font-size: 3.5rem;
-    font-weight: 700;
 }
 
 @media screen and (min-width: 1025px) {
