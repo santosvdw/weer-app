@@ -7,5 +7,20 @@ div.temp_card {
     border-radius: 40px;
     display: inherit;
     justify-content: center;
-    height: 200px;
+    height: 170px;
+
+    div.card_content {
+        display: inherit;
+        flex-flow: column wrap;
+        align-items: center;
+        align-content: center;
+        justify-content: space-evenly;
+
+        div {
+            display: inherit;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            width: 120%;
+        }
+    }
 }

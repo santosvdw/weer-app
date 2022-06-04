@@ -61,12 +61,20 @@ div.temp_card {
   border-radius: 40px;
   display: inherit;
   justify-content: center;
-  height: 200px;
-  flex-flow: column wrap;
+  height: 170px;
 }
-div.temp_card div {
+div.temp_card div.card_content {
+  display: inherit;
+  flex-flow: column wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: space-evenly;
+}
+div.temp_card div.card_content div {
   display: inherit;
   flex-flow: row wrap;
+  justify-content: space-between;
+  width: 120%;
 }
 
 p.weer-icoontje img {
@@ -84,4 +92,11 @@ div.cards {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
+}
+div.cards p#day01, div.cards p#day02, div.cards p#day03, div.cards p#day04, div.cards p#day05 {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+div.cards img {
+  height: 60px;
 }/*# sourceMappingURL=main.css.map */
