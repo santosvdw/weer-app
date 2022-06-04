@@ -1,8 +1,47 @@
 html {
   font-family: cabin, sans-serif;
   font-size: 16px;
+  height: 16px;
+  width: 16px;
 }
 
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 12px;
+  }
+
+  div.temp_card {
+    border-radius: 20px;
+  }
+
+  div.cards {
+    justify-content: space-evenly;
+  }
+}
+@media screen and (min-width: 481px) {
+  html {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 650px) {
+  html {
+    font-size: 14px;
+  }
+
+  div.temp_card {
+    border-radius: 40px;
+  }
+}
+@media screen and (min-width: 730px) {
+  div.cards {
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 900px) {
+  html {
+    font-size: 16px;
+  }
+}
 @media screen and (min-width: 1025px) {
   html {
     font-size: 18px;
@@ -21,18 +60,52 @@ html {
 @media screen and (min-width: 1770px) {
   html {
     font-size: 24px;
-  }
-}
-@media screen and (min-width: 2000px) {
-  html {
-    font-size: 30px;
   }
 }
 html {
   font-family: cabin, sans-serif;
   font-size: 16px;
+  height: 16px;
+  width: 16px;
 }
 
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 12px;
+  }
+
+  div.temp_card {
+    border-radius: 20px;
+  }
+
+  div.cards {
+    justify-content: space-evenly;
+  }
+}
+@media screen and (min-width: 481px) {
+  html {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 650px) {
+  html {
+    font-size: 14px;
+  }
+
+  div.temp_card {
+    border-radius: 40px;
+  }
+}
+@media screen and (min-width: 730px) {
+  div.cards {
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 900px) {
+  html {
+    font-size: 16px;
+  }
+}
 @media screen and (min-width: 1025px) {
   html {
     font-size: 18px;
@@ -51,18 +124,52 @@ html {
 @media screen and (min-width: 1770px) {
   html {
     font-size: 24px;
-  }
-}
-@media screen and (min-width: 2000px) {
-  html {
-    font-size: 30px;
   }
 }
 html {
   font-family: cabin, sans-serif;
   font-size: 16px;
+  height: 16px;
+  width: 16px;
 }
 
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 12px;
+  }
+
+  div.temp_card {
+    border-radius: 20px;
+  }
+
+  div.cards {
+    justify-content: space-evenly;
+  }
+}
+@media screen and (min-width: 481px) {
+  html {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 650px) {
+  html {
+    font-size: 14px;
+  }
+
+  div.temp_card {
+    border-radius: 40px;
+  }
+}
+@media screen and (min-width: 730px) {
+  div.cards {
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 900px) {
+  html {
+    font-size: 16px;
+  }
+}
 @media screen and (min-width: 1025px) {
   html {
     font-size: 18px;
@@ -81,11 +188,6 @@ html {
 @media screen and (min-width: 1770px) {
   html {
     font-size: 24px;
-  }
-}
-@media screen and (min-width: 2000px) {
-  html {
-    font-size: 30px;
   }
 }
 html {
@@ -132,8 +234,47 @@ select option {
 html {
   font-family: cabin, sans-serif;
   font-size: 16px;
+  height: 16px;
+  width: 16px;
 }
 
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 12px;
+  }
+
+  div.temp_card {
+    border-radius: 20px;
+  }
+
+  div.cards {
+    justify-content: space-evenly;
+  }
+}
+@media screen and (min-width: 481px) {
+  html {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 650px) {
+  html {
+    font-size: 14px;
+  }
+
+  div.temp_card {
+    border-radius: 40px;
+  }
+}
+@media screen and (min-width: 730px) {
+  div.cards {
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 900px) {
+  html {
+    font-size: 16px;
+  }
+}
 @media screen and (min-width: 1025px) {
   html {
     font-size: 18px;
@@ -152,11 +293,6 @@ html {
 @media screen and (min-width: 1770px) {
   html {
     font-size: 24px;
-  }
-}
-@media screen and (min-width: 2000px) {
-  html {
-    font-size: 30px;
   }
 }
 h1 {
@@ -167,8 +303,47 @@ h1 {
 html {
   font-family: cabin, sans-serif;
   font-size: 16px;
+  height: 16px;
+  width: 16px;
 }
 
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 12px;
+  }
+
+  div.temp_card {
+    border-radius: 20px;
+  }
+
+  div.cards {
+    justify-content: space-evenly;
+  }
+}
+@media screen and (min-width: 481px) {
+  html {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 650px) {
+  html {
+    font-size: 14px;
+  }
+
+  div.temp_card {
+    border-radius: 40px;
+  }
+}
+@media screen and (min-width: 730px) {
+  div.cards {
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 900px) {
+  html {
+    font-size: 16px;
+  }
+}
 @media screen and (min-width: 1025px) {
   html {
     font-size: 18px;
@@ -187,11 +362,6 @@ html {
 @media screen and (min-width: 1770px) {
   html {
     font-size: 24px;
-  }
-}
-@media screen and (min-width: 2000px) {
-  html {
-    font-size: 30px;
   }
 }
 form {
@@ -217,8 +387,47 @@ select option {
 html {
   font-family: cabin, sans-serif;
   font-size: 16px;
+  height: 16px;
+  width: 16px;
 }
 
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 12px;
+  }
+
+  div.temp_card {
+    border-radius: 20px;
+  }
+
+  div.cards {
+    justify-content: space-evenly;
+  }
+}
+@media screen and (min-width: 481px) {
+  html {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 650px) {
+  html {
+    font-size: 14px;
+  }
+
+  div.temp_card {
+    border-radius: 40px;
+  }
+}
+@media screen and (min-width: 730px) {
+  div.cards {
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 900px) {
+  html {
+    font-size: 16px;
+  }
+}
 @media screen and (min-width: 1025px) {
   html {
     font-size: 18px;
@@ -239,18 +448,12 @@ html {
     font-size: 24px;
   }
 }
-@media screen and (min-width: 2000px) {
-  html {
-    font-size: 30px;
-  }
-}
 div.temp_card {
   width: 9.375rem;
   background-color: rgba(128, 128, 128, 0.3);
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  border-radius: 40px;
   display: inherit;
   justify-content: center;
   height: 10.625rem;
@@ -273,8 +476,47 @@ div.temp_card div.card_content div {
 html {
   font-family: cabin, sans-serif;
   font-size: 16px;
+  height: 16px;
+  width: 16px;
 }
 
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 12px;
+  }
+
+  div.temp_card {
+    border-radius: 20px;
+  }
+
+  div.cards {
+    justify-content: space-evenly;
+  }
+}
+@media screen and (min-width: 481px) {
+  html {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 650px) {
+  html {
+    font-size: 14px;
+  }
+
+  div.temp_card {
+    border-radius: 40px;
+  }
+}
+@media screen and (min-width: 730px) {
+  div.cards {
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 900px) {
+  html {
+    font-size: 16px;
+  }
+}
 @media screen and (min-width: 1025px) {
   html {
     font-size: 18px;
@@ -295,20 +537,54 @@ html {
     font-size: 24px;
   }
 }
-@media screen and (min-width: 2000px) {
-  html {
-    font-size: 30px;
-  }
-}
 p.weer-icoontje img {
-  height: 45px;
+  height: 2.813rem;
 }
 
 html {
   font-family: cabin, sans-serif;
   font-size: 16px;
+  height: 16px;
+  width: 16px;
 }
 
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 12px;
+  }
+
+  div.temp_card {
+    border-radius: 20px;
+  }
+
+  div.cards {
+    justify-content: space-evenly;
+  }
+}
+@media screen and (min-width: 481px) {
+  html {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 650px) {
+  html {
+    font-size: 14px;
+  }
+
+  div.temp_card {
+    border-radius: 40px;
+  }
+}
+@media screen and (min-width: 730px) {
+  div.cards {
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 900px) {
+  html {
+    font-size: 16px;
+  }
+}
 @media screen and (min-width: 1025px) {
   html {
     font-size: 18px;
@@ -327,11 +603,6 @@ html {
 @media screen and (min-width: 1770px) {
   html {
     font-size: 24px;
-  }
-}
-@media screen and (min-width: 2000px) {
-  html {
-    font-size: 30px;
   }
 }
 body {
@@ -352,8 +623,47 @@ div.container {
 html {
   font-family: cabin, sans-serif;
   font-size: 16px;
+  height: 16px;
+  width: 16px;
 }
 
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 12px;
+  }
+
+  div.temp_card {
+    border-radius: 20px;
+  }
+
+  div.cards {
+    justify-content: space-evenly;
+  }
+}
+@media screen and (min-width: 481px) {
+  html {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 650px) {
+  html {
+    font-size: 14px;
+  }
+
+  div.temp_card {
+    border-radius: 40px;
+  }
+}
+@media screen and (min-width: 730px) {
+  div.cards {
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 900px) {
+  html {
+    font-size: 16px;
+  }
+}
 @media screen and (min-width: 1025px) {
   html {
     font-size: 18px;
@@ -374,15 +684,9 @@ html {
     font-size: 24px;
   }
 }
-@media screen and (min-width: 2000px) {
-  html {
-    font-size: 30px;
-  }
-}
 div.cards {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
 }
 div.cards p#day01, div.cards p#day02, div.cards p#day03, div.cards p#day04, div.cards p#day05 {
   font-size: 1.5em;
@@ -395,8 +699,47 @@ div.cards img {
 html {
   font-family: cabin, sans-serif;
   font-size: 16px;
+  height: 16px;
+  width: 16px;
 }
 
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 12px;
+  }
+
+  div.temp_card {
+    border-radius: 20px;
+  }
+
+  div.cards {
+    justify-content: space-evenly;
+  }
+}
+@media screen and (min-width: 481px) {
+  html {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 650px) {
+  html {
+    font-size: 14px;
+  }
+
+  div.temp_card {
+    border-radius: 40px;
+  }
+}
+@media screen and (min-width: 730px) {
+  div.cards {
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 900px) {
+  html {
+    font-size: 16px;
+  }
+}
 @media screen and (min-width: 1025px) {
   html {
     font-size: 18px;
@@ -415,11 +758,6 @@ html {
 @media screen and (min-width: 1770px) {
   html {
     font-size: 24px;
-  }
-}
-@media screen and (min-width: 2000px) {
-  html {
-    font-size: 30px;
   }
 }
 header {
@@ -429,8 +767,47 @@ header {
 html {
   font-family: cabin, sans-serif;
   font-size: 16px;
+  height: 16px;
+  width: 16px;
 }
 
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 12px;
+  }
+
+  div.temp_card {
+    border-radius: 20px;
+  }
+
+  div.cards {
+    justify-content: space-evenly;
+  }
+}
+@media screen and (min-width: 481px) {
+  html {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 650px) {
+  html {
+    font-size: 14px;
+  }
+
+  div.temp_card {
+    border-radius: 40px;
+  }
+}
+@media screen and (min-width: 730px) {
+  div.cards {
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 900px) {
+  html {
+    font-size: 16px;
+  }
+}
 @media screen and (min-width: 1025px) {
   html {
     font-size: 18px;
@@ -449,11 +826,6 @@ html {
 @media screen and (min-width: 1770px) {
   html {
     font-size: 24px;
-  }
-}
-@media screen and (min-width: 2000px) {
-  html {
-    font-size: 30px;
   }
 }
 div.kt_wv {
