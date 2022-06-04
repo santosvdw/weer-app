@@ -41,6 +41,7 @@ select option {
 
 html {
   font-family: cabin, sans-serif;
+  font-size: 16px;
 }
 
 h1 {
@@ -48,6 +49,31 @@ h1 {
   font-weight: 700;
 }
 
+@media screen and (min-width: 1025px) {
+  html {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  html {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  html {
+    font-size: 22px;
+  }
+}
+@media screen and (min-width: 1770px) {
+  html {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 2000px) {
+  html {
+    font-size: 30px;
+  }
+}
 form {
   display: flex;
   flex-flow: row wrap;
@@ -58,7 +84,7 @@ form p {
 }
 
 select {
-  font-size: 40px;
+  font-size: 2.5rem;
 }
 select:hover {
   text-decoration: underline;
@@ -69,7 +95,7 @@ select option {
 }
 
 div.temp_card {
-  width: 150px;
+  width: 9.375rem;
   background-color: rgba(128, 128, 128, 0.3);
   height: -webkit-fit-content;
   height: -moz-fit-content;
@@ -77,7 +103,8 @@ div.temp_card {
   border-radius: 40px;
   display: inherit;
   justify-content: center;
-  height: 170px;
+  height: 10.625rem;
+  margin-top: 1vh;
 }
 div.temp_card div.card_content {
   display: inherit;
@@ -106,6 +133,7 @@ body {
 
 div.container {
   width: 90vw;
+  max-width: 1800px;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -124,6 +152,10 @@ div.cards img {
   height: 60px;
 }
 
+header {
+  margin-top: 5vh;
+}
+
 div.kt_wv {
   margin: 7.5vh 0;
   display: flex;
@@ -137,7 +169,7 @@ div.kt_wv div.kt_row {
 div.kt_wv div.kt_row div.temperatuur {
   display: flex;
   flex-flow: row wrap;
-  font-size: 40px;
+  font-size: 2.5rem;
 }
 div.kt_wv div.kt_row:nth-of-type(1) {
   display: inherit;

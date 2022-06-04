@@ -1,13 +1,16 @@
 @import '../01-basics/variables';
 
 div.temp_card {
-    width: 150px;
+    width: 9.375rem;
     background-color: rgba(128, 128, 128, 0.3);
     height: fit-content;
     border-radius: 40px;
     display: inherit;
     justify-content: center;
-    height: 170px;
+    height: 10.625rem;
+    margin-top: 1vh;
+
+    
 
     div.card_content {
         display: inherit;
