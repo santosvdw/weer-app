@@ -22,8 +22,8 @@ div.bg_img_overlay {
 img#bgImg {
     z-index: -100;
     position: absolute;
-    top: -30vh;
+    bottom: 0vh;
     left: 0;
-    width: 150vw;
-    
+    width: 110vw;
+    aspect-ratio: 3/2;
 }

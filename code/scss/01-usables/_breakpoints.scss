@@ -19,6 +19,10 @@ html {
     div.cards {
         justify-content: space-evenly;
     }
+    img#bgImg {
+        top: 0;
+        height: 80vh;
+    }
 }
 
 @media screen and (min-width: 481px) {
@@ -38,6 +42,11 @@ html {
     div.temp_card {
         border-radius: 40px;
     }
+    img#bgImg {
+        width: 130vw;
+        height: auto;
+        top: -20vh;
+    }
 }
 
 @media screen and (min-width: 730px) {
@@ -52,6 +61,9 @@ html {
         height: 16px;
         width: 16px;
     }
+    img#bgImg {
+        top: -20vh;
+    }
 }
 
 @media screen and (min-width: 1025px) {
@@ -60,6 +72,9 @@ html {
         height: 18px;
         width: 18px;
     }
+        img#bgImg {
+            top: -30vh;
+        }
 }
 
 
@@ -69,6 +84,9 @@ html {
         height: 22px;
         width: 22px;
     }
+    img#bgImg {
+        top: -20vh;
+    }
 }
 
 @media screen and (min-width: 1770px) {
@@ -76,6 +94,9 @@ html {
         font-size: 24px;
         height: 24px;
         width: 24px;
+    }
+    img#bgImg {
+        top: -20vh;
     }
 }
 
