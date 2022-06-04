@@ -551,6 +551,8 @@ if (minutes == 1) {
     minutes = '08';
 } else if (minutes == 9) {
     minutes = '09';
+} else if (minutes == 0) {
+    minutes = '00';
 }
 var time = today.getHours() + ':' + minutes;
 var curHr = today.getHours();
@@ -590,7 +592,6 @@ if (curWeekDay == 'Mon') {
     weekDay04 = 'Vrijdag';
     weekDay05 = 'Zaterdag';
     /////
-    document.querySelector('.weekdag').innerHTML = curWeekDay;
     pWD01.innerHTML = weekDay01.substr(0, 2);
     pWD02.innerHTML = weekDay02.substr(0, 2);
     pWD03.innerHTML = weekDay03.substr(0, 2);
@@ -605,7 +606,6 @@ if (curWeekDay == 'Mon') {
     weekDay04 = 'Zaterdag';
     weekDay05 = 'Zondag';
     /////
-    document.querySelector('.weekdag').innerHTML = curWeekDay;
     pWD01.innerHTML = weekDay01.substr(0, 2);
     pWD02.innerHTML = weekDay02.substr(0, 2);
     pWD03.innerHTML = weekDay03.substr(0, 2);
@@ -620,7 +620,6 @@ if (curWeekDay == 'Mon') {
     weekDay04 = 'Zondag';
     weekDay05 = 'Maandag';
     /////
-    document.querySelector('.weekdag').innerHTML = curWeekDay;
     pWD01.innerHTML = weekDay01.substr(0, 2);
     pWD02.innerHTML = weekDay02.substr(0, 2);
     pWD03.innerHTML = weekDay03.substr(0, 2);
@@ -635,7 +634,6 @@ if (curWeekDay == 'Mon') {
     weekDay04 = 'Maandag';
     weekDay05 = 'Dinsdag';
     /////
-    document.querySelector('.weekdag').innerHTML = curWeekDay;
     pWD01.innerHTML = weekDay01.substr(0, 2);
     pWD02.innerHTML = weekDay02.substr(0, 2);
     pWD03.innerHTML = weekDay03.substr(0, 2);
@@ -650,7 +648,6 @@ if (curWeekDay == 'Mon') {
     weekDay04 = 'Dinsdag';
     weekDay05 = 'Woensdag';
     /////
-    document.querySelector('.weekdag').innerHTML = curWeekDay;
     pWD01.innerHTML = weekDay01.substr(0, 2);
     pWD02.innerHTML = weekDay02.substr(0, 2);
     pWD03.innerHTML = weekDay03.substr(0, 2);
@@ -665,7 +662,6 @@ if (curWeekDay == 'Mon') {
     weekDay04 = 'Woensdag';
     weekDay05 = 'Donderdag';
     /////
-    document.querySelector('.weekdag').innerHTML = curWeekDay;
     pWD01.innerHTML = weekDay01.substr(0, 2);
     pWD02.innerHTML = weekDay02.substr(0, 2);
     pWD03.innerHTML = weekDay03.substr(0, 2);
@@ -680,10 +676,11 @@ if (curWeekDay == 'Mon') {
     weekDay04 = 'Donderdag';
     weekDay05 = 'Vrijdag';
     /////
-    document.querySelector('.weekdag').innerHTML = curWeekDay;
     pWD01.innerHTML = weekDay01.substr(0, 2);
     pWD02.innerHTML = weekDay02.substr(0, 2);
     pWD03.innerHTML = weekDay03.substr(0, 2);
     pWD04.innerHTML = weekDay04.substr(0, 2);
     pWD05.innerHTML = weekDay05.substr(0, 2);
 }
+
+document.querySelector('.tijd_dag').innerHTML = curWeekDay + ', ' + time;

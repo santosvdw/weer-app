@@ -1,8 +1,14 @@
 @import '../01-basics/variables';
 
+body {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
 div.container {
     width: 90vw;
-    height: 100%;
-    background-color: rgb(219, 219, 219);
-    margin: 0 auto;
+    height: fit-content;
+    // background-color: rgb(219, 219, 219);
 }

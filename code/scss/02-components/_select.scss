@@ -1,5 +1,24 @@
 @import '../01-basics/variables';
 
+form {
+    display: flex; 
+    flex-flow: row wrap;
+    align-items: center;
+
+    p {
+        margin-right: 3px;
+    }
+}
+
+
 select {
-    text-decoration: underline;
+    font-size: 40px;
+    &:hover {
+        text-decoration: underline;
+        text-decoration-thickness: 3px;
+    }
+
+    option {
+        font-size: 1rem;
+    }
 }
