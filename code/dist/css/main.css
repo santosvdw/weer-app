@@ -653,7 +653,7 @@ html {
     width: 30px;
   }
 }
-img {
+p img {
   height: 2.813rem;
 }
 
@@ -841,7 +841,7 @@ div.cards p#day01, div.cards p#day02, div.cards p#day03, div.cards p#day04, div.
   font-weight: 700;
 }
 div.cards img {
-  height: 60px;
+  height: 2.813rem;
 }
 
 html {
