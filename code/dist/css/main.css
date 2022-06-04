@@ -8,6 +8,8 @@ html {
 @media screen and (min-width: 320px) {
   html {
     font-size: 12px;
+    height: 12px;
+    width: 12px;
   }
 
   div.temp_card {
@@ -21,11 +23,15 @@ html {
 @media screen and (min-width: 481px) {
   html {
     font-size: 12px;
+    height: 12px;
+    width: 12px;
   }
 }
 @media screen and (min-width: 650px) {
   html {
     font-size: 14px;
+    height: 14px;
+    width: 14px;
   }
 
   div.temp_card {
@@ -40,21 +46,36 @@ html {
 @media screen and (min-width: 900px) {
   html {
     font-size: 16px;
+    height: 16px;
+    width: 16px;
   }
 }
 @media screen and (min-width: 1025px) {
   html {
     font-size: 18px;
+    height: 18px;
+    width: 18px;
   }
 }
 @media screen and (min-width: 1440px) {
   html {
     font-size: 22px;
+    height: 22px;
+    width: 22px;
   }
 }
 @media screen and (min-width: 1770px) {
   html {
     font-size: 24px;
+    height: 24px;
+    width: 24px;
+  }
+}
+@media screen and (min-width: 2000px) {
+  html {
+    font-size: 30px;
+    height: 30px;
+    width: 30px;
   }
 }
 html {
@@ -67,6 +88,8 @@ html {
 @media screen and (min-width: 320px) {
   html {
     font-size: 12px;
+    height: 12px;
+    width: 12px;
   }
 
   div.temp_card {
@@ -80,11 +103,15 @@ html {
 @media screen and (min-width: 481px) {
   html {
     font-size: 12px;
+    height: 12px;
+    width: 12px;
   }
 }
 @media screen and (min-width: 650px) {
   html {
     font-size: 14px;
+    height: 14px;
+    width: 14px;
   }
 
   div.temp_card {
@@ -99,21 +126,36 @@ html {
 @media screen and (min-width: 900px) {
   html {
     font-size: 16px;
+    height: 16px;
+    width: 16px;
   }
 }
 @media screen and (min-width: 1025px) {
   html {
     font-size: 18px;
+    height: 18px;
+    width: 18px;
   }
 }
 @media screen and (min-width: 1440px) {
   html {
     font-size: 22px;
+    height: 22px;
+    width: 22px;
   }
 }
 @media screen and (min-width: 1770px) {
   html {
     font-size: 24px;
+    height: 24px;
+    width: 24px;
+  }
+}
+@media screen and (min-width: 2000px) {
+  html {
+    font-size: 30px;
+    height: 30px;
+    width: 30px;
   }
 }
 html {
@@ -126,6 +168,8 @@ html {
 @media screen and (min-width: 320px) {
   html {
     font-size: 12px;
+    height: 12px;
+    width: 12px;
   }
 
   div.temp_card {
@@ -139,11 +183,15 @@ html {
 @media screen and (min-width: 481px) {
   html {
     font-size: 12px;
+    height: 12px;
+    width: 12px;
   }
 }
 @media screen and (min-width: 650px) {
   html {
     font-size: 14px;
+    height: 14px;
+    width: 14px;
   }
 
   div.temp_card {
@@ -158,21 +206,36 @@ html {
 @media screen and (min-width: 900px) {
   html {
     font-size: 16px;
+    height: 16px;
+    width: 16px;
   }
 }
 @media screen and (min-width: 1025px) {
   html {
     font-size: 18px;
+    height: 18px;
+    width: 18px;
   }
 }
 @media screen and (min-width: 1440px) {
   html {
     font-size: 22px;
+    height: 22px;
+    width: 22px;
   }
 }
 @media screen and (min-width: 1770px) {
   html {
     font-size: 24px;
+    height: 24px;
+    width: 24px;
+  }
+}
+@media screen and (min-width: 2000px) {
+  html {
+    font-size: 30px;
+    height: 30px;
+    width: 30px;
   }
 }
 html {
@@ -226,6 +289,8 @@ html {
 @media screen and (min-width: 320px) {
   html {
     font-size: 12px;
+    height: 12px;
+    width: 12px;
   }
 
   div.temp_card {
@@ -239,11 +304,15 @@ html {
 @media screen and (min-width: 481px) {
   html {
     font-size: 12px;
+    height: 12px;
+    width: 12px;
   }
 }
 @media screen and (min-width: 650px) {
   html {
     font-size: 14px;
+    height: 14px;
+    width: 14px;
   }
 
   div.temp_card {
@@ -258,26 +327,45 @@ html {
 @media screen and (min-width: 900px) {
   html {
     font-size: 16px;
+    height: 16px;
+    width: 16px;
   }
 }
 @media screen and (min-width: 1025px) {
   html {
     font-size: 18px;
+    height: 18px;
+    width: 18px;
   }
 }
 @media screen and (min-width: 1440px) {
   html {
     font-size: 22px;
+    height: 22px;
+    width: 22px;
   }
 }
 @media screen and (min-width: 1770px) {
   html {
     font-size: 24px;
+    height: 24px;
+    width: 24px;
+  }
+}
+@media screen and (min-width: 2000px) {
+  html {
+    font-size: 30px;
+    height: 30px;
+    width: 30px;
   }
 }
 h1 {
   font-size: 3.5rem;
   font-weight: 700;
+}
+
+p {
+  font-size: 1.1rem;
 }
 
 html {
@@ -290,6 +378,8 @@ html {
 @media screen and (min-width: 320px) {
   html {
     font-size: 12px;
+    height: 12px;
+    width: 12px;
   }
 
   div.temp_card {
@@ -303,11 +393,15 @@ html {
 @media screen and (min-width: 481px) {
   html {
     font-size: 12px;
+    height: 12px;
+    width: 12px;
   }
 }
 @media screen and (min-width: 650px) {
   html {
     font-size: 14px;
+    height: 14px;
+    width: 14px;
   }
 
   div.temp_card {
@@ -322,21 +416,36 @@ html {
 @media screen and (min-width: 900px) {
   html {
     font-size: 16px;
+    height: 16px;
+    width: 16px;
   }
 }
 @media screen and (min-width: 1025px) {
   html {
     font-size: 18px;
+    height: 18px;
+    width: 18px;
   }
 }
 @media screen and (min-width: 1440px) {
   html {
     font-size: 22px;
+    height: 22px;
+    width: 22px;
   }
 }
 @media screen and (min-width: 1770px) {
   html {
     font-size: 24px;
+    height: 24px;
+    width: 24px;
+  }
+}
+@media screen and (min-width: 2000px) {
+  html {
+    font-size: 30px;
+    height: 30px;
+    width: 30px;
   }
 }
 form {
@@ -369,6 +478,8 @@ html {
 @media screen and (min-width: 320px) {
   html {
     font-size: 12px;
+    height: 12px;
+    width: 12px;
   }
 
   div.temp_card {
@@ -382,11 +493,15 @@ html {
 @media screen and (min-width: 481px) {
   html {
     font-size: 12px;
+    height: 12px;
+    width: 12px;
   }
 }
 @media screen and (min-width: 650px) {
   html {
     font-size: 14px;
+    height: 14px;
+    width: 14px;
   }
 
   div.temp_card {
@@ -401,21 +516,36 @@ html {
 @media screen and (min-width: 900px) {
   html {
     font-size: 16px;
+    height: 16px;
+    width: 16px;
   }
 }
 @media screen and (min-width: 1025px) {
   html {
     font-size: 18px;
+    height: 18px;
+    width: 18px;
   }
 }
 @media screen and (min-width: 1440px) {
   html {
     font-size: 22px;
+    height: 22px;
+    width: 22px;
   }
 }
 @media screen and (min-width: 1770px) {
   html {
     font-size: 24px;
+    height: 24px;
+    width: 24px;
+  }
+}
+@media screen and (min-width: 2000px) {
+  html {
+    font-size: 30px;
+    height: 30px;
+    width: 30px;
   }
 }
 div.temp_card {
@@ -453,6 +583,8 @@ html {
 @media screen and (min-width: 320px) {
   html {
     font-size: 12px;
+    height: 12px;
+    width: 12px;
   }
 
   div.temp_card {
@@ -466,11 +598,15 @@ html {
 @media screen and (min-width: 481px) {
   html {
     font-size: 12px;
+    height: 12px;
+    width: 12px;
   }
 }
 @media screen and (min-width: 650px) {
   html {
     font-size: 14px;
+    height: 14px;
+    width: 14px;
   }
 
   div.temp_card {
@@ -485,24 +621,39 @@ html {
 @media screen and (min-width: 900px) {
   html {
     font-size: 16px;
+    height: 16px;
+    width: 16px;
   }
 }
 @media screen and (min-width: 1025px) {
   html {
     font-size: 18px;
+    height: 18px;
+    width: 18px;
   }
 }
 @media screen and (min-width: 1440px) {
   html {
     font-size: 22px;
+    height: 22px;
+    width: 22px;
   }
 }
 @media screen and (min-width: 1770px) {
   html {
     font-size: 24px;
+    height: 24px;
+    width: 24px;
   }
 }
-p.weer-icoontje img {
+@media screen and (min-width: 2000px) {
+  html {
+    font-size: 30px;
+    height: 30px;
+    width: 30px;
+  }
+}
+img {
   height: 2.813rem;
 }
 
@@ -516,6 +667,8 @@ html {
 @media screen and (min-width: 320px) {
   html {
     font-size: 12px;
+    height: 12px;
+    width: 12px;
   }
 
   div.temp_card {
@@ -529,11 +682,15 @@ html {
 @media screen and (min-width: 481px) {
   html {
     font-size: 12px;
+    height: 12px;
+    width: 12px;
   }
 }
 @media screen and (min-width: 650px) {
   html {
     font-size: 14px;
+    height: 14px;
+    width: 14px;
   }
 
   div.temp_card {
@@ -548,21 +705,36 @@ html {
 @media screen and (min-width: 900px) {
   html {
     font-size: 16px;
+    height: 16px;
+    width: 16px;
   }
 }
 @media screen and (min-width: 1025px) {
   html {
     font-size: 18px;
+    height: 18px;
+    width: 18px;
   }
 }
 @media screen and (min-width: 1440px) {
   html {
     font-size: 22px;
+    height: 22px;
+    width: 22px;
   }
 }
 @media screen and (min-width: 1770px) {
   html {
     font-size: 24px;
+    height: 24px;
+    width: 24px;
+  }
+}
+@media screen and (min-width: 2000px) {
+  html {
+    font-size: 30px;
+    height: 30px;
+    width: 30px;
   }
 }
 body {
@@ -590,6 +762,8 @@ html {
 @media screen and (min-width: 320px) {
   html {
     font-size: 12px;
+    height: 12px;
+    width: 12px;
   }
 
   div.temp_card {
@@ -603,11 +777,15 @@ html {
 @media screen and (min-width: 481px) {
   html {
     font-size: 12px;
+    height: 12px;
+    width: 12px;
   }
 }
 @media screen and (min-width: 650px) {
   html {
     font-size: 14px;
+    height: 14px;
+    width: 14px;
   }
 
   div.temp_card {
@@ -622,21 +800,36 @@ html {
 @media screen and (min-width: 900px) {
   html {
     font-size: 16px;
+    height: 16px;
+    width: 16px;
   }
 }
 @media screen and (min-width: 1025px) {
   html {
     font-size: 18px;
+    height: 18px;
+    width: 18px;
   }
 }
 @media screen and (min-width: 1440px) {
   html {
     font-size: 22px;
+    height: 22px;
+    width: 22px;
   }
 }
 @media screen and (min-width: 1770px) {
   html {
     font-size: 24px;
+    height: 24px;
+    width: 24px;
+  }
+}
+@media screen and (min-width: 2000px) {
+  html {
+    font-size: 30px;
+    height: 30px;
+    width: 30px;
   }
 }
 div.cards {
@@ -661,6 +854,8 @@ html {
 @media screen and (min-width: 320px) {
   html {
     font-size: 12px;
+    height: 12px;
+    width: 12px;
   }
 
   div.temp_card {
@@ -674,11 +869,15 @@ html {
 @media screen and (min-width: 481px) {
   html {
     font-size: 12px;
+    height: 12px;
+    width: 12px;
   }
 }
 @media screen and (min-width: 650px) {
   html {
     font-size: 14px;
+    height: 14px;
+    width: 14px;
   }
 
   div.temp_card {
@@ -693,21 +892,36 @@ html {
 @media screen and (min-width: 900px) {
   html {
     font-size: 16px;
+    height: 16px;
+    width: 16px;
   }
 }
 @media screen and (min-width: 1025px) {
   html {
     font-size: 18px;
+    height: 18px;
+    width: 18px;
   }
 }
 @media screen and (min-width: 1440px) {
   html {
     font-size: 22px;
+    height: 22px;
+    width: 22px;
   }
 }
 @media screen and (min-width: 1770px) {
   html {
     font-size: 24px;
+    height: 24px;
+    width: 24px;
+  }
+}
+@media screen and (min-width: 2000px) {
+  html {
+    font-size: 30px;
+    height: 30px;
+    width: 30px;
   }
 }
 header {
@@ -724,6 +938,8 @@ html {
 @media screen and (min-width: 320px) {
   html {
     font-size: 12px;
+    height: 12px;
+    width: 12px;
   }
 
   div.temp_card {
@@ -737,11 +953,15 @@ html {
 @media screen and (min-width: 481px) {
   html {
     font-size: 12px;
+    height: 12px;
+    width: 12px;
   }
 }
 @media screen and (min-width: 650px) {
   html {
     font-size: 14px;
+    height: 14px;
+    width: 14px;
   }
 
   div.temp_card {
@@ -756,21 +976,36 @@ html {
 @media screen and (min-width: 900px) {
   html {
     font-size: 16px;
+    height: 16px;
+    width: 16px;
   }
 }
 @media screen and (min-width: 1025px) {
   html {
     font-size: 18px;
+    height: 18px;
+    width: 18px;
   }
 }
 @media screen and (min-width: 1440px) {
   html {
     font-size: 22px;
+    height: 22px;
+    width: 22px;
   }
 }
 @media screen and (min-width: 1770px) {
   html {
     font-size: 24px;
+    height: 24px;
+    width: 24px;
+  }
+}
+@media screen and (min-width: 2000px) {
+  html {
+    font-size: 30px;
+    height: 30px;
+    width: 30px;
   }
 }
 div.kt_wv {
@@ -786,6 +1021,8 @@ div.kt_wv div.kt_row {
 div.kt_wv div.kt_row div.temperatuur {
   display: flex;
   flex-flow: row wrap;
+}
+div.kt_wv div.kt_row div.temperatuur p {
   font-size: 2.5rem;
 }
 div.kt_wv div.kt_row:nth-of-type(1) {

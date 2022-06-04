@@ -14,7 +14,9 @@ div.kt_wv {
             display: flex;
             flex-flow: row wrap;
 
-            font-size: 2.5rem;
+            p {
+                font-size: 2.5rem;
+            }
         }
 
         &:nth-of-type(1) {
