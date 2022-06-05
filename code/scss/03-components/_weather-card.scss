@@ -19,6 +19,10 @@ div.temp_card {
         align-content: center;
         justify-content: space-evenly;
 
+        p.min-temp {
+            color:midnightblue;
+        }
+
         div {
             display: inherit;
             flex-flow: row wrap;

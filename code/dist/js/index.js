@@ -592,6 +592,7 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
 // Welkoms bericht
 let greetingEl = document.getElementById('welkom');
 let today = new Date();
+console.log(today);
 let minutes = today.getMinutes();
 let hours = today.getHours();
 if (minutes == 1) {
