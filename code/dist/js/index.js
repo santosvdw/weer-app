@@ -771,6 +771,32 @@ if (curWeekDay == 'Mon') {
 
 document.querySelector('.tijd_dag').innerHTML = curWeekDay + ', ' + time;
 
+////////// Modal
+
 function openModal() {
     console.log('open modal');
+    var x = document.querySelector('.modal');
+    var y = document.querySelector('.modal_bg');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+        x.style.position = 'absolute';
+        y.style.display = 'block';
+        y.style.position = 'absolute';
+    } else {
+        x.style.display = 'none';
+        y.style.display = 'none';
+    }
+}
+
+function closeModal() {
+    console.log('close modal');
+    var x = document.querySelector('.modal');
+    var y = document.querySelector('.modal_bg');
+    if (x.style.display === 'block') {
+        x.style.display = 'none';
+        y.style.display = 'none';
+    } else {
+        x.style.display = 'block';
+        y.style.display = 'block';
+    }
 }

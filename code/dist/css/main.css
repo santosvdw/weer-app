@@ -334,11 +334,13 @@ html {
 
 body {
   width: 100vw;
-  overflow-x: hiden;
+  overflow-x: hidden;
   background-color: hsl(0deg, 0%, 100%);
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
+  display: flex;
+  justify-content: center;
 }
 body *,
 body *::before,
@@ -847,6 +849,51 @@ html {
     width: 30px;
   }
 }
+p.ontdek_meer {
+  font-size: 0.9em;
+  font-style: italic;
+  text-decoration: underline;
+  background-color: rgba(160, 217, 221, 0.658);
+  text-align: center;
+  padding: 3px 0;
+}
+p.ontdek_meer:hover {
+  cursor: pointer;
+}
+
+p.closeModal {
+  cursor: pointer;
+  position: absolute;
+  right: 30px;
+  top: 10px;
+}
+
+div.modal {
+  z-index: 150;
+  width: 80vw;
+  height: 80vh;
+  background-color: rgb(233, 233, 233);
+  top: 10vh;
+  border-radius: 30px;
+  display: inline;
+  position: absolute;
+}
+div.modal p {
+  display: block;
+}
+
+div.modal_bg {
+  width: 100vw;
+  height: 100vh;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  background-color: rgba(0, 0, 0, 0.507);
+  z-index: 100;
+  display: block;
+  position: absolute;
+  top: 0;
+}
+
 html {
   font-family: cabin, sans-serif;
   font-size: 16px;
@@ -1473,7 +1520,7 @@ div.cards img {
 
 .lt-wv {
   margin-top: 15vh;
-  margin-bottom: 7.5vh;
+  margin-bottom: 5vh;
 }
 
 html {

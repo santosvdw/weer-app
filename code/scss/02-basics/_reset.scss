@@ -12,11 +12,13 @@ html {
 
 body {
     width: 100vw;
-    overflow-x: hiden;
+    overflow-x: hidden;
     background-color: $wit;
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+    display: flex;
+    justify-content: center;
 
     *,
     *::before,
