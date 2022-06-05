@@ -262,7 +262,7 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
                 weatherDesc.innerHTML = curWeatherDesc;
                 console.log(weatherDesc.innerHTML);
             } else if (curLocatie == 'Meetstation Leeuwarden') {
-                i = 24;
+                i = 25;
                 curTemp = statMea[i].temperature;
                 temp.innerHTML = curTemp + '°C';
                 console.log(temp.innerHTML);
@@ -426,7 +426,7 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
                 curWeatherDesc = jsonData.actual.stationmeasurements[i].weatherdescription;
                 weatherDesc.innerHTML = curWeatherDesc;
                 console.log(weatherDesc.innerHTML);
-            } else if (curLocatie == 'Meetstation Westdopre') {
+            } else if (curLocatie == 'Meetstation Westdorpe') {
                 i = 46;
                 curTemp = statMea[i].temperature;
                 temp.innerHTML = curTemp + '°C';
@@ -514,10 +514,10 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
             bgImage();
 
             for (let i = 0; i < statMea.length; i++) {
-                if (jsonData.actual.stationmeasurements[i].weatherdescription == 'Zwaar bewolkt') {
+                if (jsonData.actual.stationmeasurements[i].temperature == undefined) {
                     console.log('flop' + jsonData.actual.stationmeasurements[i].regio);
                 } else {
-                    console.log('slay' + jsonData.actual.stationmeasurements[i].regio);
+                    console.log('slay' + jsonData.actual.stationmeasurements[i].regio + i);
                 }
             }
         }
