@@ -38,51 +38,6 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
             let curWeatherDesc = jsonData.actual.stationmeasurements[i].weatherdescription;
             // Achtergrond foto's
 
-            if (curWeatherDesc == 'Vrijwel onbewolkt (zonnig/helder)') {
-                var achtergrondFoto = 'https://images.unsplash.com/photo-1593635698515-bcfdebfb547e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80';
-            } else if (curWeatherDesc == 'Mix van opklaringen en hoge bewolking') {
-                var achtergrondFoto = 'https://images.unsplash.com/photo-1486666188991-b5be4844c800?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80';
-            } else if (curWeatherDesc == 'Mix van opklaringen en middelbare of lage bewolking') {
-                var achtergrondFoto = 'https://images.unsplash.com/photo-1444830038442-c43db8ffb5ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80';
-            } else if (curWeatherDesc == 'Zwaar bewolkt') {
-                var achtergrondFoto = 'https://images.unsplash.com/photo-1435542290199-8b007d2fb88e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80';
-            } else if (curWeatherDesc == 'Afwisselend bewolkt met lokaal mist(banken)') {
-                var achtergrondFoto = 'https://images.unsplash.com/photo-1629146468498-47b3e40422f9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=874&q=80';
-            } else if (curWeatherDesc == 'Afwisselend bewolkt met (mogelijk) wat lichte regen') {
-                var achtergrondFoto = 'https://images.unsplash.com/photo-1519692933481-e162a57d6721?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80';
-            } else if (curWeatherDesc == 'Opklaringen en kans op enkele pittige (onweers)buien') {
-                var achtergrondFoto = 'https://images.unsplash.com/photo-1487762488615-8a011458b53e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80';
-            } else if (curWeatherDesc == 'Bewolkt en kans op enkele pittige (onweers)buien') {
-                var achtergrondFoto = 'https://images.unsplash.com/photo-1487762488615-8a011458b53e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80';
-            } else if (curWeatherDesc == 'Zware sneeuwval') {
-                var achtergrondFoto = 'https://images.unsplash.com/photo-1543395772-3bb8eeacbe5b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1003&q=80';
-            } else if (curWeatherDesc == 'Zwaar bewolkt met wat lichte regen') {
-                var achtergrondFoto = 'https://images.unsplash.com/photo-1526720259772-150e99ad1e58?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80';
-            } else if (curWeatherDesc == 'Opklaring en lokaal nevel of mist') {
-                var achtergrondFoto = 'https://images.unsplash.com/photo-1636555269230-74ff8f069e5b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=954&q=80';
-            } else if (curWeatherDesc == 'Zwaar bewolkt en regen') {
-                var achtergrondFoto = 'https://images.unsplash.com/photo-1563389843516-4a7b39dce10d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1100&q=80';
-            } else if (curWeatherDesc == 'Afwisselend bewolkt met lichte sneeuwval') {
-                var achtergrondFoto = 'https://images.unsplash.com/photo-1477601263568-180e2c6d046e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80';
-            } else if (curWeatherDesc == 'Zwaar bewolkt met lichte sneeuwval') {
-                var achtergrondFoto = 'https://images.unsplash.com/photo-1530189443471-a7397667f448?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80';
-            } else if (curWeatherDesc == 'Zwaar bewolkt met regen en winterse neerslag') {
-                var achtergrondFoto = 'https://images.unsplash.com/photo-1533836555383-8c5aa1844aaf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80';
-            } else {
-                var achtergrondFoto = 'https://images.unsplash.com/photo-1580140671080-2bab27fdac17?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80';
-            }
-
-            function bgImage() {
-                var img = document.createElement('img');
-                img.src = achtergrondFoto;
-                var src = document.querySelector('.background_image');
-                img.id = 'bgImg';
-                src.appendChild(img);
-                console.log(curWeatherDesc + '  ' + achtergrondFoto);
-            }
-
-            bgImage();
-
             if (curLocatie == 'Meetstation Arcen') {
                 i = 0;
                 curTemp = statMea[i].temperature;
@@ -512,6 +467,59 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
                 weatherDesc.innerHTML = curWeatherDesc;
                 console.log(weatherDesc.innerHTML);
             }
+
+            if (curWeatherDesc == 'Vrijwel onbewolkt (zonnig/helder)') {
+                var achtergrondFoto = 'https://images.unsplash.com/photo-1593635698515-bcfdebfb547e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80';
+            } else if (curWeatherDesc == 'Mix van opklaringen en hoge bewolking') {
+                var achtergrondFoto = 'https://images.unsplash.com/photo-1486666188991-b5be4844c800?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80';
+            } else if (curWeatherDesc == 'Mix van opklaringen en middelbare of lage bewolking') {
+                var achtergrondFoto = 'https://images.unsplash.com/photo-1444830038442-c43db8ffb5ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80';
+            } else if (curWeatherDesc == 'Zwaar bewolkt') {
+                var achtergrondFoto = 'https://images.unsplash.com/photo-1435542290199-8b007d2fb88e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80';
+            } else if (curWeatherDesc == 'Afwisselend bewolkt met lokaal mist(banken)') {
+                var achtergrondFoto = 'https://images.unsplash.com/photo-1629146468498-47b3e40422f9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=874&q=80';
+            } else if (curWeatherDesc == 'Afwisselend bewolkt met (mogelijk) wat lichte regen') {
+                var achtergrondFoto = 'https://images.unsplash.com/photo-1519692933481-e162a57d6721?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80';
+            } else if (curWeatherDesc == 'Opklaringen en kans op enkele pittige (onweers)buien') {
+                var achtergrondFoto = 'https://images.unsplash.com/photo-1487762488615-8a011458b53e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80';
+            } else if (curWeatherDesc == 'Bewolkt en kans op enkele pittige (onweers)buien') {
+                var achtergrondFoto = 'https://images.unsplash.com/photo-1487762488615-8a011458b53e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80';
+            } else if (curWeatherDesc == 'Zware sneeuwval') {
+                var achtergrondFoto = 'https://images.unsplash.com/photo-1543395772-3bb8eeacbe5b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1003&q=80';
+            } else if (curWeatherDesc == 'Zwaar bewolkt met wat lichte regen') {
+                var achtergrondFoto = 'https://images.unsplash.com/photo-1526720259772-150e99ad1e58?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80';
+            } else if (curWeatherDesc == 'Opklaring en lokaal nevel of mist') {
+                var achtergrondFoto = 'https://images.unsplash.com/photo-1636555269230-74ff8f069e5b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=954&q=80';
+            } else if (curWeatherDesc == 'Zwaar bewolkt en regen') {
+                var achtergrondFoto = 'https://images.unsplash.com/photo-1563389843516-4a7b39dce10d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1100&q=80';
+            } else if (curWeatherDesc == 'Afwisselend bewolkt met lichte sneeuwval') {
+                var achtergrondFoto = 'https://images.unsplash.com/photo-1477601263568-180e2c6d046e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80';
+            } else if (curWeatherDesc == 'Zwaar bewolkt met lichte sneeuwval') {
+                var achtergrondFoto = 'https://images.unsplash.com/photo-1530189443471-a7397667f448?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80';
+            } else if (curWeatherDesc == 'Zwaar bewolkt met regen en winterse neerslag') {
+                var achtergrondFoto = 'https://images.unsplash.com/photo-1533836555383-8c5aa1844aaf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80';
+            } else {
+                var achtergrondFoto = 'https://images.unsplash.com/photo-1580140671080-2bab27fdac17?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80';
+            }
+
+            function bgImage() {
+                var img = document.createElement('img');
+                img.src = achtergrondFoto;
+                var src = document.querySelector('.background_image');
+                img.id = 'bgImg';
+                src.appendChild(img);
+                console.log(curWeatherDesc + '  ' + achtergrondFoto);
+            }
+
+            bgImage();
+
+            for (let i = 0; i < statMea.length; i++) {
+                if (jsonData.actual.stationmeasurements[i].weatherdescription == 'Zwaar bewolkt') {
+                    console.log('flop' + jsonData.actual.stationmeasurements[i].regio);
+                } else {
+                    console.log('slay' + jsonData.actual.stationmeasurements[i].regio);
+                }
+            }
         }
 
         // fivedayforecast icons
@@ -585,6 +593,7 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
 let greetingEl = document.getElementById('welkom');
 let today = new Date();
 let minutes = today.getMinutes();
+let hours = today.getHours();
 if (minutes == 1) {
     minutes = '01';
 } else if (minutes == 2) {
@@ -606,7 +615,30 @@ if (minutes == 1) {
 } else if (minutes == 0) {
     minutes = '00';
 }
-var time = today.getHours() + ':' + minutes;
+
+if (hours == 1) {
+    hours = '01';
+} else if (hours == 2) {
+    hours = '02';
+} else if (hours == 3) {
+    hours = '03';
+} else if (hours == 4) {
+    hours = '04';
+} else if (hours == 5) {
+    hours = '05';
+} else if (hours == 6) {
+    hours = '06';
+} else if (hours == 7) {
+    hours = '07';
+} else if (hours == 8) {
+    hours = '08';
+} else if (hours == 9) {
+    hours = '09';
+} else if (hours == 0) {
+    hours = '00';
+}
+
+var time = hours + ':' + minutes;
 var curHr = today.getHours();
 
 document.querySelector('.time').innerHTML = time;
@@ -633,6 +665,7 @@ let pWD02 = document.querySelector('#day02');
 let pWD03 = document.querySelector('#day03');
 let pWD04 = document.querySelector('#day04');
 let pWD05 = document.querySelector('#day05');
+console.log(curWeekDay);
 // Forecast icons
 
 if (curWeekDay == 'Mon') {
