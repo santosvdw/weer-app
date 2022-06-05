@@ -1594,6 +1594,9 @@ div.kt_wv div.kt_row {
   display: inherit;
   align-content: flex-end;
 }
+div.kt_wv div.kt_row p {
+  filter: drop-shadow(5px 5px 5px white);
+}
 div.kt_wv div.kt_row div.temperatuur {
   display: flex;
   flex-flow: row wrap;

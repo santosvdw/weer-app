@@ -10,6 +10,10 @@ div.kt_wv {
         display: inherit;
         align-content: flex-end;
 
+        p {
+           filter:drop-shadow(5px 5px 5px rgba($color: #FFF, $alpha: 1.0));
+        }
+
         div.temperatuur {
             display: flex;
             flex-flow: row wrap;
