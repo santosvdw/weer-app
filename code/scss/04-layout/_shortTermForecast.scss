@@ -10,8 +10,8 @@ div.kt_wv {
         display: inherit;
         align-content: flex-end;
 
-        p {
-           filter:drop-shadow(5px 5px 5px rgba($color: #FFF, $alpha: 1.0));
+        img, p {
+           filter: drop-shadow(10px 10px 10px rgba(255, 255, 255));
         }
 
         div.temperatuur {

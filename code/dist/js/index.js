@@ -770,3 +770,7 @@ if (curWeekDay == 'Mon') {
 }
 
 document.querySelector('.tijd_dag').innerHTML = curWeekDay + ', ' + time;
+
+function openModal() {
+    console.log('open modal');
+}
