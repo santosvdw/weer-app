@@ -861,10 +861,11 @@ p.ontdek_meer:hover {
   cursor: pointer;
 }
 
-p.closeModal {
+i#closeModal {
   cursor: pointer;
-  position: absolute;
   right: 30px;
+  position: absolute;
+  display: block;
   top: 10px;
 }
 
@@ -876,7 +877,6 @@ div.modal {
   top: 10vh;
   border-radius: 30px;
   display: inline;
-  position: absolute;
 }
 div.modal p {
   display: block;
@@ -889,8 +889,6 @@ div.modal_bg {
           backdrop-filter: blur(5px);
   background-color: rgba(0, 0, 0, 0.507);
   z-index: 100;
-  display: block;
-  position: absolute;
   top: 0;
 }
 
