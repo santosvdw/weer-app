@@ -597,11 +597,8 @@ setInterval(function tijdDatum() {
     let today = new Date();
     console.log(today);
     let minutes = today.getMinutes();
-    console.log(minutes);
     let hours = today.getHours();
-    console.log(hours);
-    let curTime = hours + ':' + minutes;
-    console.log(curTime);
+
     if (minutes == 1) {
         minutes = '01';
     } else if (minutes == 2) {
@@ -646,6 +643,10 @@ setInterval(function tijdDatum() {
         hours = '00';
     }
 
+    console.log(minutes);
+    console.log(hours);
+    let curTime = hours + ':' + minutes;
+    console.log(curTime);
     document.querySelector('.time').innerHTML = `${curWeekDay}, ${curTime}`;
 
     var curHr = today.getHours();
