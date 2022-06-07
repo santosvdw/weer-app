@@ -655,7 +655,7 @@ if (curHr < 12) {
 }
 
 // Weekdag
-let curWeekDay = Date().substr(0, 2);
+let curWeekDay = Date().substr(0, 3);
 let weekDay01 = 'Dinsdag';
 let weekDay02 = 'Woensdag';
 let weekDay03 = 'Donderdag';
