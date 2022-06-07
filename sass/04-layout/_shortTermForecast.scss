@@ -1,0 +1,44 @@
+@import '../01-usables/usables';
+
+div.kt_wv {
+    margin: 7.5vh 0 0 0;
+    display: flex;
+    flex-flow: row wrap;
+
+    div.kt_row {
+        width: 50%;
+        display: inherit;
+        align-content: flex-end;
+
+        p {
+            img {
+                filter: drop-shadow(0 0 10px rgb(255, 255, 255));
+            }
+        }
+
+        div.temperatuur {
+            display: flex;
+            flex-flow: row wrap;
+
+            p {
+                font-size: 2.5rem;
+            }
+        }
+
+        &:nth-of-type(1) {
+            display: inherit;
+            flex-flow: column wrap;
+            align-content: flex-start;
+        }
+
+        &:nth-last-of-type(1) {
+            display: inherit;
+            flex-flow: column wrap;
+            align-items: flex-end; 
+            text-align: right;
+            p.tijd_dag {
+                height: 1rem;
+            }
+        }
+    }
+}

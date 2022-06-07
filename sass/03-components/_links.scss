@@ -1,0 +1,17 @@
+@import '../01-usables/usables';
+
+a {
+    color: rgba(0, 0, 255, 0.5);
+    text-decoration: underline;
+
+    &:hover {
+        color: blue;
+    }
+
+    &#legenda {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        font-size: 1.1rem;
+    }
+}

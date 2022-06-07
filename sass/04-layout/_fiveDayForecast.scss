@@ -1,0 +1,21 @@
+@import '../01-usables/usables';
+
+div.cards {
+    display: flex;
+    flex-flow: row wrap;
+    // justify-content: space-between;
+
+    p#day01, p#day02, p#day03, p#day04, p#day05 {
+        font-size: 1.5em;
+        font-weight: 700;
+    }
+
+    img {
+        height: 2.813rem;
+    }
+}
+
+.lt-wv {
+    margin-top: 15vh;
+    margin-bottom: 5vh;
+}

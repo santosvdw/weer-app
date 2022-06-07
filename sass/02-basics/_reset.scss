@@ -1,0 +1,48 @@
+@import '../01-usables/usables';
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: $wit;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    display: flex;
+    justify-content: center;
+
+    *,
+    *::before,
+    *::after {
+        all: unset;
+        display: block;
+        z-index: 0;
+    }
+}
+
+script, head {
+    display: none;
+}
+
+div.content {
+    p {
+        color: $zwart;
+    }
+}
+
+select {
+    all: unset;
+    
+    option {
+        all: unset;
+    }
+}

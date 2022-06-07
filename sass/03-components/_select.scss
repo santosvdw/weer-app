@@ -1,0 +1,24 @@
+@import '../01-usables/usables';
+
+form {
+    display: flex; 
+    flex-flow: row wrap;
+    align-items: center;
+
+    p {
+        margin-right: 3px;
+    }
+}
+
+
+select {
+    font-size: 2.5rem;
+    &:hover {
+        text-decoration: underline;
+        text-decoration-thickness: 3px;
+    }
+
+    option {
+        font-size: 1rem;
+    }
+}

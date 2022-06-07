@@ -1,0 +1,33 @@
+@import '../01-usables/usables';
+
+div.temp_card {
+    width: 9.375rem;
+    background-color: rgba(175, 175, 175, 0.3);
+    height: fit-content;
+    display: inherit;
+    justify-content: center;
+    height: 10.625rem;
+    margin-top: 1vh;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+    
+
+    div.card_content {
+        display: inherit;
+        flex-flow: column wrap;
+        align-items: center;
+        align-content: center;
+        justify-content: space-evenly;
+
+        p.min-temp {
+            color:midnightblue;
+        }
+
+        div {
+            display: inherit;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            width: 120%;
+        }
+    }
+}

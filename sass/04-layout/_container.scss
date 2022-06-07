@@ -1,0 +1,17 @@
+@import '../01-usables/usables';
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.container {
+    width: 90vw;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    max-width: 1800px;
+    height: fit-content;
+    // background-color: rgb(219, 219, 219);
+}
