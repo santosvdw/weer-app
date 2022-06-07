@@ -1751,8 +1751,8 @@ div.kt_wv div.kt_row {
   display: inherit;
   align-content: flex-end;
 }
-div.kt_wv div.kt_row img, div.kt_wv div.kt_row p {
-  filter: drop-shadow(10px 10px 10px rgb(255, 255, 255));
+div.kt_wv div.kt_row p img {
+  filter: drop-shadow(0 0 10px rgb(255, 255, 255));
 }
 div.kt_wv div.kt_row div.temperatuur {
   display: flex;
