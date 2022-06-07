@@ -591,68 +591,75 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
 
 // Welkoms bericht
 let greetingEl = document.getElementById('welkom');
-let today = new Date();
-console.log(today);
-let minutes = today.getMinutes();
-let hours = today.getHours();
-if (minutes == 1) {
-    minutes = '01';
-} else if (minutes == 2) {
-    minutes = '02';
-} else if (minutes == 3) {
-    minutes = '03';
-} else if (minutes == 4) {
-    minutes = '04';
-} else if (minutes == 5) {
-    minutes = '05';
-} else if (minutes == 6) {
-    minutes = '06';
-} else if (minutes == 7) {
-    minutes = '07';
-} else if (minutes == 8) {
-    minutes = '08';
-} else if (minutes == 9) {
-    minutes = '09';
-} else if (minutes == 0) {
-    minutes = '00';
-}
 
-if (hours == 1) {
-    hours = '01';
-} else if (hours == 2) {
-    hours = '02';
-} else if (hours == 3) {
-    hours = '03';
-} else if (hours == 4) {
-    hours = '04';
-} else if (hours == 5) {
-    hours = '05';
-} else if (hours == 6) {
-    hours = '06';
-} else if (hours == 7) {
-    hours = '07';
-} else if (hours == 8) {
-    hours = '08';
-} else if (hours == 9) {
-    hours = '09';
-} else if (hours == 0) {
-    hours = '00';
-}
+// Tijd
+setInterval(function tijdDatum() {
+    let today = new Date();
+    console.log(today);
+    let minutes = today.getMinutes();
+    console.log(minutes);
+    let hours = today.getHours();
+    console.log(hours);
+    let curTime = hours + ':' + minutes;
+    console.log(curTime);
+    document.querySelector('.time').innerHTML = `${curWeekDay}, ${curTime}`;
+    if (minutes == 1) {
+        minutes = '01';
+    } else if (minutes == 2) {
+        minutes = '02';
+    } else if (minutes == 3) {
+        minutes = '03';
+    } else if (minutes == 4) {
+        minutes = '04';
+    } else if (minutes == 5) {
+        minutes = '05';
+    } else if (minutes == 6) {
+        minutes = '06';
+    } else if (minutes == 7) {
+        minutes = '07';
+    } else if (minutes == 8) {
+        minutes = '08';
+    } else if (minutes == 9) {
+        minutes = '09';
+    } else if (minutes == 0) {
+        minutes = '00';
+    }
 
-var time = hours + ':' + minutes;
-var curHr = today.getHours();
+    if (hours == 1) {
+        hours = '01';
+    } else if (hours == 2) {
+        hours = '02';
+    } else if (hours == 3) {
+        hours = '03';
+    } else if (hours == 4) {
+        hours = '04';
+    } else if (hours == 5) {
+        hours = '05';
+    } else if (hours == 6) {
+        hours = '06';
+    } else if (hours == 7) {
+        hours = '07';
+    } else if (hours == 8) {
+        hours = '08';
+    } else if (hours == 9) {
+        hours = '09';
+    } else if (hours == 0) {
+        hours = '00';
+    }
 
-document.querySelector('.time').innerHTML = time;
-if (curHr < 12) {
-    console.log('good morning');
-    greetingEl.innerHTML = 'Goede ochtend!';
-} else if (curHr < 18) {
-    console.log('good afternoon');
-    greetingEl.innerHTML = 'Goede middag!';
-} else {
-    console.log('good evening');
-    greetingEl.innerHTML = 'Goede avond!';
-}
+    var curHr = today.getHours();
+
+    if (curHr < 12) {
+        console.log('good morning');
+        greetingEl.innerHTML = 'Goede ochtend!';
+    } else if (curHr < 18) {
+        console.log('good afternoon');
+        greetingEl.innerHTML = 'Goede middag!';
+    } else {
+        console.log('good evening');
+        greetingEl.innerHTML = 'Goede avond!';
+    }
+}, 1000);
 
 // Weekdag
 let curWeekDay = Date().substr(0, 3);
@@ -768,8 +775,6 @@ if (curWeekDay == 'Mon') {
     pWD04.innerHTML = weekDay04.substr(0, 2);
     pWD05.innerHTML = weekDay05.substr(0, 2);
 }
-
-document.querySelector('.tijd_dag').innerHTML = curWeekDay + ', ' + time;
 
 ////////// Modal
 
