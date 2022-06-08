@@ -23,7 +23,6 @@
     },
     "dependencies": {
         "autoprefixer": "^10.4.2",
-        "bootstrap-icons": "^1.8.3",
         "browser-sync": "^2.27.7",
         "copyfiles": "^2.4.1",
         "cssnano": "^5.0.17",
