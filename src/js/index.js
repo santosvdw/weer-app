@@ -71,11 +71,6 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
                 curWeatherDesc = jsonData.actual.stationmeasurements[i].weatherdescription;
                 weatherDesc.innerHTML = curWeatherDesc;
                 console.log(weatherDesc.innerHTML);
-                if (curWeatherDesc == 'Vrijwel onbewolkt (zonnig/helder)') {
-                    console.log('slay queen');
-                } else {
-                    console.log('flop');
-                }
             } else if (curLocatie == 'Meetstation De Bilt') {
                 i = 4;
                 curTemp = statMea[i].temperature;
@@ -513,13 +508,13 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
 
             bgImage();
 
-            for (let i = 0; i < statMea.length; i++) {
-                if (jsonData.actual.stationmeasurements[i].temperature == undefined) {
-                    console.log('flop' + jsonData.actual.stationmeasurements[i].regio);
-                } else {
-                    console.log('slay' + jsonData.actual.stationmeasurements[i].regio + i);
-                }
-            }
+            // for (let i = 0; i < statMea.length; i++) {
+            //     if (jsonData.actual.stationmeasurements[i].temperature == undefined) {
+            //         console.log('flop' + jsonData.actual.stationmeasurements[i].regio);
+            //     } else {
+            //         console.log('slay' + jsonData.actual.stationmeasurements[i].regio + i);
+            //     }
+            // }
         }
 
         // fivedayforecast icons
@@ -595,7 +590,6 @@ let greetingEl = document.getElementById('welkom');
 // Tijd
 setInterval(function tijdDatum() {
     let today = new Date();
-    console.log(today);
     let minutes = today.getMinutes();
     let hours = today.getHours();
 
@@ -642,23 +636,23 @@ setInterval(function tijdDatum() {
     } else if (hours == 0) {
         hours = '00';
     }
-
-    console.log(minutes);
-    console.log(hours);
+    // console.log(today);
+    // console.log(minutes);
+    // console.log(hours);
     let curTime = hours + ':' + minutes;
-    console.log(curTime);
+    // console.log(curTime);
     document.querySelector('.time').innerHTML = `${curWeekDay}, ${curTime}`;
 
     var curHr = today.getHours();
 
     if (curHr < 12) {
-        console.log('good morning');
+        // console.log('good morning');
         greetingEl.innerHTML = 'Goede ochtend!';
     } else if (curHr < 18) {
-        console.log('good afternoon');
+        // console.log('good afternoon');
         greetingEl.innerHTML = 'Goede middag!';
     } else {
-        console.log('good evening');
+        // console.log('good evening');
         greetingEl.innerHTML = 'Goede avond!';
     }
 }, 1000);
