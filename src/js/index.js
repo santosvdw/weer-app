@@ -801,3 +801,14 @@ function closeModal() {
         y.style.display = 'block';
     }
 }
+
+// Modal weer icoon
+
+function weerIconModal() {
+    var img = document.createElement('img');
+    img.src = statMea[i].iconurl; // <-- Het weer icoon
+    var src = document.querySelector('.weer-icon');
+    src.appendChild(img);
+}
+
+weerIconModal();
