@@ -37,7 +37,7 @@
     height: 100%;
     display: flex;
     align-items: center;
-    flex-direction: column;
+    flex-flow: column wrap;
     justify-content: center;
 }
 
@@ -81,17 +81,13 @@ div.modal_bg {
     height: fit-content;
     display: flex;
     justify-content: center;
-
-    &:nth-last-of-type(2) {
-        justify-content: space-between;
-    }
+    flex-flow: row wrap;
     
     &:nth-last-of-type(1) {
         margin-top: 5%;
-        justify-content: space-evenly;
     }
     &:nth-of-type(n+2) {
-        // background-color: aquamarine;
+        justify-content: space-evenly;
         width: 70%;
         font-size: 1.2rem;
         text-align: center;

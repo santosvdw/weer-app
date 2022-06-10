@@ -22,10 +22,13 @@ html {
     height: 80vh;
     width: auto;
   }
+  .modal.col:nth-of-type(n+2) {
+    width: 60%;
+  }
 }
 @media screen and (min-width: 481px) {
   html {
-    font-size: 12px;
+    font-size: 14px;
     height: 12px;
     width: 12px;
   }
@@ -48,6 +51,9 @@ html {
 @media screen and (min-width: 730px) {
   div.cards {
     justify-content: space-between;
+  }
+  .modal.col:nth-of-type(n+2) {
+    width: 70%;
   }
 }
 @media screen and (min-width: 900px) {
@@ -121,10 +127,13 @@ html {
     height: 80vh;
     width: auto;
   }
+  .modal.col:nth-of-type(n+2) {
+    width: 60%;
+  }
 }
 @media screen and (min-width: 481px) {
   html {
-    font-size: 12px;
+    font-size: 14px;
     height: 12px;
     width: 12px;
   }
@@ -147,6 +156,9 @@ html {
 @media screen and (min-width: 730px) {
   div.cards {
     justify-content: space-between;
+  }
+  .modal.col:nth-of-type(n+2) {
+    width: 70%;
   }
 }
 @media screen and (min-width: 900px) {
@@ -220,10 +232,13 @@ html {
     height: 80vh;
     width: auto;
   }
+  .modal.col:nth-of-type(n+2) {
+    width: 60%;
+  }
 }
 @media screen and (min-width: 481px) {
   html {
-    font-size: 12px;
+    font-size: 14px;
     height: 12px;
     width: 12px;
   }
@@ -246,6 +261,9 @@ html {
 @media screen and (min-width: 730px) {
   div.cards {
     justify-content: space-between;
+  }
+  .modal.col:nth-of-type(n+2) {
+    width: 70%;
   }
 }
 @media screen and (min-width: 900px) {
@@ -362,10 +380,13 @@ html {
     height: 80vh;
     width: auto;
   }
+  .modal.col:nth-of-type(n+2) {
+    width: 60%;
+  }
 }
 @media screen and (min-width: 481px) {
   html {
-    font-size: 12px;
+    font-size: 14px;
     height: 12px;
     width: 12px;
   }
@@ -388,6 +409,9 @@ html {
 @media screen and (min-width: 730px) {
   div.cards {
     justify-content: space-between;
+  }
+  .modal.col:nth-of-type(n+2) {
+    width: 70%;
   }
 }
 @media screen and (min-width: 900px) {
@@ -470,10 +494,13 @@ html {
     height: 80vh;
     width: auto;
   }
+  .modal.col:nth-of-type(n+2) {
+    width: 60%;
+  }
 }
 @media screen and (min-width: 481px) {
   html {
-    font-size: 12px;
+    font-size: 14px;
     height: 12px;
     width: 12px;
   }
@@ -496,6 +523,9 @@ html {
 @media screen and (min-width: 730px) {
   div.cards {
     justify-content: space-between;
+  }
+  .modal.col:nth-of-type(n+2) {
+    width: 70%;
   }
 }
 @media screen and (min-width: 900px) {
@@ -598,10 +628,13 @@ html {
     height: 80vh;
     width: auto;
   }
+  .modal.col:nth-of-type(n+2) {
+    width: 60%;
+  }
 }
 @media screen and (min-width: 481px) {
   html {
-    font-size: 12px;
+    font-size: 14px;
     height: 12px;
     width: 12px;
   }
@@ -624,6 +657,9 @@ html {
 @media screen and (min-width: 730px) {
   div.cards {
     justify-content: space-between;
+  }
+  .modal.col:nth-of-type(n+2) {
+    width: 70%;
   }
 }
 @media screen and (min-width: 900px) {
@@ -712,10 +748,13 @@ html {
     height: 80vh;
     width: auto;
   }
+  .modal.col:nth-of-type(n+2) {
+    width: 60%;
+  }
 }
 @media screen and (min-width: 481px) {
   html {
-    font-size: 12px;
+    font-size: 14px;
     height: 12px;
     width: 12px;
   }
@@ -738,6 +777,9 @@ html {
 @media screen and (min-width: 730px) {
   div.cards {
     justify-content: space-between;
+  }
+  .modal.col:nth-of-type(n+2) {
+    width: 70%;
   }
 }
 @media screen and (min-width: 900px) {
@@ -825,10 +867,13 @@ html {
     height: 80vh;
     width: auto;
   }
+  .modal.col:nth-of-type(n+2) {
+    width: 60%;
+  }
 }
 @media screen and (min-width: 481px) {
   html {
-    font-size: 12px;
+    font-size: 14px;
     height: 12px;
     width: 12px;
   }
@@ -851,6 +896,9 @@ html {
 @media screen and (min-width: 730px) {
   div.cards {
     justify-content: space-between;
+  }
+  .modal.col:nth-of-type(n+2) {
+    width: 70%;
   }
 }
 @media screen and (min-width: 900px) {
@@ -935,7 +983,7 @@ html {
   height: 100%;
   display: flex;
   align-items: center;
-  flex-direction: column;
+  flex-flow: column wrap;
   justify-content: center;
 }
 
@@ -979,15 +1027,13 @@ div.modal_bg {
   height: fit-content;
   display: flex;
   justify-content: center;
-}
-.col:nth-last-of-type(2) {
-  justify-content: space-between;
+  flex-flow: row wrap;
 }
 .col:nth-last-of-type(1) {
   margin-top: 5%;
-  justify-content: space-evenly;
 }
 .col:nth-of-type(n+2) {
+  justify-content: space-evenly;
   width: 70%;
   font-size: 1.2rem;
   text-align: center;
@@ -1025,10 +1071,13 @@ html {
     height: 80vh;
     width: auto;
   }
+  .modal.col:nth-of-type(n+2) {
+    width: 60%;
+  }
 }
 @media screen and (min-width: 481px) {
   html {
-    font-size: 12px;
+    font-size: 14px;
     height: 12px;
     width: 12px;
   }
@@ -1051,6 +1100,9 @@ html {
 @media screen and (min-width: 730px) {
   div.cards {
     justify-content: space-between;
+  }
+  .modal.col:nth-of-type(n+2) {
+    width: 70%;
   }
 }
 @media screen and (min-width: 900px) {
@@ -1144,10 +1196,13 @@ html {
     height: 80vh;
     width: auto;
   }
+  .modal.col:nth-of-type(n+2) {
+    width: 60%;
+  }
 }
 @media screen and (min-width: 481px) {
   html {
-    font-size: 12px;
+    font-size: 14px;
     height: 12px;
     width: 12px;
   }
@@ -1170,6 +1225,9 @@ html {
 @media screen and (min-width: 730px) {
   div.cards {
     justify-content: space-between;
+  }
+  .modal.col:nth-of-type(n+2) {
+    width: 70%;
   }
 }
 @media screen and (min-width: 900px) {
@@ -1271,10 +1329,13 @@ html {
     height: 80vh;
     width: auto;
   }
+  .modal.col:nth-of-type(n+2) {
+    width: 60%;
+  }
 }
 @media screen and (min-width: 481px) {
   html {
-    font-size: 12px;
+    font-size: 14px;
     height: 12px;
     width: 12px;
   }
@@ -1297,6 +1358,9 @@ html {
 @media screen and (min-width: 730px) {
   div.cards {
     justify-content: space-between;
+  }
+  .modal.col:nth-of-type(n+2) {
+    width: 70%;
   }
 }
 @media screen and (min-width: 900px) {
@@ -1374,10 +1438,13 @@ html {
     height: 80vh;
     width: auto;
   }
+  .modal.col:nth-of-type(n+2) {
+    width: 60%;
+  }
 }
 @media screen and (min-width: 481px) {
   html {
-    font-size: 12px;
+    font-size: 14px;
     height: 12px;
     width: 12px;
   }
@@ -1400,6 +1467,9 @@ html {
 @media screen and (min-width: 730px) {
   div.cards {
     justify-content: space-between;
+  }
+  .modal.col:nth-of-type(n+2) {
+    width: 70%;
   }
 }
 @media screen and (min-width: 900px) {
@@ -1488,10 +1558,13 @@ html {
     height: 80vh;
     width: auto;
   }
+  .modal.col:nth-of-type(n+2) {
+    width: 60%;
+  }
 }
 @media screen and (min-width: 481px) {
   html {
-    font-size: 12px;
+    font-size: 14px;
     height: 12px;
     width: 12px;
   }
@@ -1514,6 +1587,9 @@ html {
 @media screen and (min-width: 730px) {
   div.cards {
     justify-content: space-between;
+  }
+  .modal.col:nth-of-type(n+2) {
+    width: 70%;
   }
 }
 @media screen and (min-width: 900px) {
@@ -1603,10 +1679,13 @@ html {
     height: 80vh;
     width: auto;
   }
+  .modal.col:nth-of-type(n+2) {
+    width: 60%;
+  }
 }
 @media screen and (min-width: 481px) {
   html {
-    font-size: 12px;
+    font-size: 14px;
     height: 12px;
     width: 12px;
   }
@@ -1629,6 +1708,9 @@ html {
 @media screen and (min-width: 730px) {
   div.cards {
     justify-content: space-between;
+  }
+  .modal.col:nth-of-type(n+2) {
+    width: 70%;
   }
 }
 @media screen and (min-width: 900px) {
@@ -1706,10 +1788,13 @@ html {
     height: 80vh;
     width: auto;
   }
+  .modal.col:nth-of-type(n+2) {
+    width: 60%;
+  }
 }
 @media screen and (min-width: 481px) {
   html {
-    font-size: 12px;
+    font-size: 14px;
     height: 12px;
     width: 12px;
   }
@@ -1732,6 +1817,9 @@ html {
 @media screen and (min-width: 730px) {
   div.cards {
     justify-content: space-between;
+  }
+  .modal.col:nth-of-type(n+2) {
+    width: 70%;
   }
 }
 @media screen and (min-width: 900px) {
