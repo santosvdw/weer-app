@@ -36,10 +36,6 @@ html {
         height: 12px;
         width: 12px;
     }
-    .modal .col:nth-of-type(n+2) {
-        width: 60%;  
-        flex-flow: column wrap;
-    }
 }
 
 @media screen and (min-width: 650px) {
@@ -55,10 +51,6 @@ html {
         width: 130vw;
         height: auto;
         top: -20vh;
-    }
-    .modal .col:nth-of-type(n+2) {
-        width: 60%;  
-        flex-flow: column wrap;
     }
 }
 
