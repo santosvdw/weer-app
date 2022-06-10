@@ -27,7 +27,7 @@
                         <p class="temp"></p>
                     </div>
                     <p class="temp_desc"></p>
-                    <p class="ontdek_meer" onclick="openModal()">Meer ontdekken</p>
+                    <button class="ontdek_meer" onclick="openModal()">Meer ontdekken</button>
                 </div>
 
                 <div class="kt_row">
@@ -152,12 +152,13 @@
         </div>
 
         <div class="modal">
-            <div class="modal_content">
-                <div class="weer-icon"></div>
+            <div class="modal_body">
+                <div class="modal_content">
+                    <div class="col"></div>
+                    <p onclick="closeModal()" id="closeModal">X</p>
+                </div>
             </div>
-            <img src="./assets/modal.svg" alt="" class="modal_body" />
         </div>
-        <!-- <p onclick="closeModal()" id="closeModal">X</p> -->
         <div class="modal_bg" style="display: block"></div>
 
         <!--Script-->
