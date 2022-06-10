@@ -1,6 +1,6 @@
 {
     "name": "weer-app",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "description": "Weer web-app gebouwd met de database van buienradar.nl",
     "main": "public/index.html",
     "author": "Santos van der Wansem & Fenne Hoogenboom",
