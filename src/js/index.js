@@ -464,9 +464,19 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
             }
 
             // Modal weather icon
-            let modalIconDiv = document.querySelector('.col:nth-of-type(1)');
-            modalIconDiv.innerHTML = '<img class="modal_icon">';
-            document.querySelector('.modal_icon').src = statMea[i].iconurl;
+            let modalIconEl = document.querySelector('#modal_icon_el');
+            modalIconEl.src = statMea[i].iconurl;
+
+            // Modal location
+            let location = statMea[i].regio;
+            document.querySelector('.modal_locatie').innerHTML = location;
+
+            // Modal info
+            document.querySelector('.modal_temp').innerHTML = temp.innerHTML;
+            document.querySelector('.modal_gtemp').innerHTML = statMea[i].feeltemperature + '°C';
+            document.querySelector('.modal_wdesc').innerHTML = weatherDesc.innerHTML;
+            document.querySelector('.wsnel').innerHTML = statMea[i].windspeed + 'km/u';
+            document.querySelector('.wrich').innerHTML = statMea[i].winddirection;
 
             // Background image
             if (curWeatherDesc == 'Vrijwel onbewolkt (zonnig/helder)') {

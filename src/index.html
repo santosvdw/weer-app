@@ -154,8 +154,39 @@
         <div class="modal">
             <div class="modal_body">
                 <div class="modal_content">
-                    <div class="col"></div>
-                    <p onclick="closeModal()" id="closeModal">X</p>
+                    <img id="modal_icon_el" />
+                    <div class="col">
+                        <div class="row">
+                            <div class="modal_locatie"></div>
+                        </div>
+                        <div class="row">
+                            <img src="./assets/x-circle.svg" alt="x" onclick="closeModal()" id="closeModal" />
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="row">
+                            <p>Temperatuur</p>
+                            <p class="modal_temp"></p>
+                        </div>
+                        <div class="row">
+                            <p>Gevoelstemperatuur</p>
+                            <p class="modal_gtemp"></p>
+                        </div>
+                        <div class="row">
+                            <p>Weersbeschrijving</p>
+                            <p class="modal_wdesc"></p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="row">
+                            <p>Windsnelheid</p>
+                            <p class="wsnel"></p>
+                        </div>
+                        <div class="row">
+                            <p>Windrichting</p>
+                            <p class="wrich"></p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
