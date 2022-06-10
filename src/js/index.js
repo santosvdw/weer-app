@@ -779,11 +779,13 @@ if (curWeekDay == 'Mon') {
 }
 
 ////////// Modal
+var x = document.querySelector('.modal');
+var y = document.querySelector('.modal_bg');
+x.style.display = 'none';
+y.style.display = 'none';
 
 function openModal() {
     console.log('open modal');
-    var x = document.querySelector('.modal');
-    var y = document.querySelector('.modal_bg');
     if (x.style.display === 'none') {
         x.style.display = 'block';
         x.style.position = 'absolute';
