@@ -22,8 +22,9 @@ html {
     height: 80vh;
     width: auto;
   }
-  .modal.col:nth-of-type(n+2) {
+  .modal .col:nth-of-type(n+2) {
     width: 60%;
+    flex-flow: column wrap;
   }
 }
 @media screen and (min-width: 481px) {
@@ -31,6 +32,10 @@ html {
     font-size: 14px;
     height: 12px;
     width: 12px;
+  }
+  .modal .col:nth-of-type(n+2) {
+    width: 60%;
+    flex-flow: column wrap;
   }
 }
 @media screen and (min-width: 650px) {
@@ -47,13 +52,18 @@ html {
     height: auto;
     top: -20vh;
   }
+  .modal .col:nth-of-type(n+2) {
+    width: 60%;
+    flex-flow: column wrap;
+  }
 }
 @media screen and (min-width: 730px) {
   div.cards {
     justify-content: space-between;
   }
-  .modal.col:nth-of-type(n+2) {
+  .modal .col:nth-of-type(n+2) {
     width: 70%;
+    flex-flow: row wrap;
   }
 }
 @media screen and (min-width: 900px) {
@@ -127,8 +137,9 @@ html {
     height: 80vh;
     width: auto;
   }
-  .modal.col:nth-of-type(n+2) {
+  .modal .col:nth-of-type(n+2) {
     width: 60%;
+    flex-flow: column wrap;
   }
 }
 @media screen and (min-width: 481px) {
@@ -136,6 +147,10 @@ html {
     font-size: 14px;
     height: 12px;
     width: 12px;
+  }
+  .modal .col:nth-of-type(n+2) {
+    width: 60%;
+    flex-flow: column wrap;
   }
 }
 @media screen and (min-width: 650px) {
@@ -152,13 +167,18 @@ html {
     height: auto;
     top: -20vh;
   }
+  .modal .col:nth-of-type(n+2) {
+    width: 60%;
+    flex-flow: column wrap;
+  }
 }
 @media screen and (min-width: 730px) {
   div.cards {
     justify-content: space-between;
   }
-  .modal.col:nth-of-type(n+2) {
+  .modal .col:nth-of-type(n+2) {
     width: 70%;
+    flex-flow: row wrap;
   }
 }
 @media screen and (min-width: 900px) {
@@ -232,8 +252,9 @@ html {
     height: 80vh;
     width: auto;
   }
-  .modal.col:nth-of-type(n+2) {
+  .modal .col:nth-of-type(n+2) {
     width: 60%;
+    flex-flow: column wrap;
   }
 }
 @media screen and (min-width: 481px) {
@@ -241,6 +262,10 @@ html {
     font-size: 14px;
     height: 12px;
     width: 12px;
+  }
+  .modal .col:nth-of-type(n+2) {
+    width: 60%;
+    flex-flow: column wrap;
   }
 }
 @media screen and (min-width: 650px) {
@@ -257,13 +282,18 @@ html {
     height: auto;
     top: -20vh;
   }
+  .modal .col:nth-of-type(n+2) {
+    width: 60%;
+    flex-flow: column wrap;
+  }
 }
 @media screen and (min-width: 730px) {
   div.cards {
     justify-content: space-between;
   }
-  .modal.col:nth-of-type(n+2) {
+  .modal .col:nth-of-type(n+2) {
     width: 70%;
+    flex-flow: row wrap;
   }
 }
 @media screen and (min-width: 900px) {
@@ -380,8 +410,9 @@ html {
     height: 80vh;
     width: auto;
   }
-  .modal.col:nth-of-type(n+2) {
+  .modal .col:nth-of-type(n+2) {
     width: 60%;
+    flex-flow: column wrap;
   }
 }
 @media screen and (min-width: 481px) {
@@ -389,6 +420,10 @@ html {
     font-size: 14px;
     height: 12px;
     width: 12px;
+  }
+  .modal .col:nth-of-type(n+2) {
+    width: 60%;
+    flex-flow: column wrap;
   }
 }
 @media screen and (min-width: 650px) {
@@ -405,13 +440,18 @@ html {
     height: auto;
     top: -20vh;
   }
+  .modal .col:nth-of-type(n+2) {
+    width: 60%;
+    flex-flow: column wrap;
+  }
 }
 @media screen and (min-width: 730px) {
   div.cards {
     justify-content: space-between;
   }
-  .modal.col:nth-of-type(n+2) {
+  .modal .col:nth-of-type(n+2) {
     width: 70%;
+    flex-flow: row wrap;
   }
 }
 @media screen and (min-width: 900px) {
@@ -494,8 +534,9 @@ html {
     height: 80vh;
     width: auto;
   }
-  .modal.col:nth-of-type(n+2) {
+  .modal .col:nth-of-type(n+2) {
     width: 60%;
+    flex-flow: column wrap;
   }
 }
 @media screen and (min-width: 481px) {
@@ -503,6 +544,10 @@ html {
     font-size: 14px;
     height: 12px;
     width: 12px;
+  }
+  .modal .col:nth-of-type(n+2) {
+    width: 60%;
+    flex-flow: column wrap;
   }
 }
 @media screen and (min-width: 650px) {
@@ -519,13 +564,18 @@ html {
     height: auto;
     top: -20vh;
   }
+  .modal .col:nth-of-type(n+2) {
+    width: 60%;
+    flex-flow: column wrap;
+  }
 }
 @media screen and (min-width: 730px) {
   div.cards {
     justify-content: space-between;
   }
-  .modal.col:nth-of-type(n+2) {
+  .modal .col:nth-of-type(n+2) {
     width: 70%;
+    flex-flow: row wrap;
   }
 }
 @media screen and (min-width: 900px) {
@@ -628,8 +678,9 @@ html {
     height: 80vh;
     width: auto;
   }
-  .modal.col:nth-of-type(n+2) {
+  .modal .col:nth-of-type(n+2) {
     width: 60%;
+    flex-flow: column wrap;
   }
 }
 @media screen and (min-width: 481px) {
@@ -637,6 +688,10 @@ html {
     font-size: 14px;
     height: 12px;
     width: 12px;
+  }
+  .modal .col:nth-of-type(n+2) {
+    width: 60%;
+    flex-flow: column wrap;
   }
 }
 @media screen and (min-width: 650px) {
@@ -653,13 +708,18 @@ html {
     height: auto;
     top: -20vh;
   }
+  .modal .col:nth-of-type(n+2) {
+    width: 60%;
+    flex-flow: column wrap;
+  }
 }
 @media screen and (min-width: 730px) {
   div.cards {
     justify-content: space-between;
   }
-  .modal.col:nth-of-type(n+2) {
+  .modal .col:nth-of-type(n+2) {
     width: 70%;
+    flex-flow: row wrap;
   }
 }
 @media screen and (min-width: 900px) {
@@ -748,8 +808,9 @@ html {
     height: 80vh;
     width: auto;
   }
-  .modal.col:nth-of-type(n+2) {
+  .modal .col:nth-of-type(n+2) {
     width: 60%;
+    flex-flow: column wrap;
   }
 }
 @media screen and (min-width: 481px) {
@@ -757,6 +818,10 @@ html {
     font-size: 14px;
     height: 12px;
     width: 12px;
+  }
+  .modal .col:nth-of-type(n+2) {
+    width: 60%;
+    flex-flow: column wrap;
   }
 }
 @media screen and (min-width: 650px) {
@@ -773,13 +838,18 @@ html {
     height: auto;
     top: -20vh;
   }
+  .modal .col:nth-of-type(n+2) {
+    width: 60%;
+    flex-flow: column wrap;
+  }
 }
 @media screen and (min-width: 730px) {
   div.cards {
     justify-content: space-between;
   }
-  .modal.col:nth-of-type(n+2) {
+  .modal .col:nth-of-type(n+2) {
     width: 70%;
+    flex-flow: row wrap;
   }
 }
 @media screen and (min-width: 900px) {
@@ -867,8 +937,9 @@ html {
     height: 80vh;
     width: auto;
   }
-  .modal.col:nth-of-type(n+2) {
+  .modal .col:nth-of-type(n+2) {
     width: 60%;
+    flex-flow: column wrap;
   }
 }
 @media screen and (min-width: 481px) {
@@ -876,6 +947,10 @@ html {
     font-size: 14px;
     height: 12px;
     width: 12px;
+  }
+  .modal .col:nth-of-type(n+2) {
+    width: 60%;
+    flex-flow: column wrap;
   }
 }
 @media screen and (min-width: 650px) {
@@ -892,13 +967,18 @@ html {
     height: auto;
     top: -20vh;
   }
+  .modal .col:nth-of-type(n+2) {
+    width: 60%;
+    flex-flow: column wrap;
+  }
 }
 @media screen and (min-width: 730px) {
   div.cards {
     justify-content: space-between;
   }
-  .modal.col:nth-of-type(n+2) {
+  .modal .col:nth-of-type(n+2) {
     width: 70%;
+    flex-flow: row wrap;
   }
 }
 @media screen and (min-width: 900px) {
@@ -1037,6 +1117,7 @@ div.modal_bg {
   width: 70%;
   font-size: 1.2rem;
   text-align: center;
+  display: flex;
 }
 .col:nth-of-type(n+2) .row p:nth-of-type(1) {
   font-size: 1.3rem;
@@ -1071,8 +1152,9 @@ html {
     height: 80vh;
     width: auto;
   }
-  .modal.col:nth-of-type(n+2) {
+  .modal .col:nth-of-type(n+2) {
     width: 60%;
+    flex-flow: column wrap;
   }
 }
 @media screen and (min-width: 481px) {
@@ -1080,6 +1162,10 @@ html {
     font-size: 14px;
     height: 12px;
     width: 12px;
+  }
+  .modal .col:nth-of-type(n+2) {
+    width: 60%;
+    flex-flow: column wrap;
   }
 }
 @media screen and (min-width: 650px) {
@@ -1096,13 +1182,18 @@ html {
     height: auto;
     top: -20vh;
   }
+  .modal .col:nth-of-type(n+2) {
+    width: 60%;
+    flex-flow: column wrap;
+  }
 }
 @media screen and (min-width: 730px) {
   div.cards {
     justify-content: space-between;
   }
-  .modal.col:nth-of-type(n+2) {
+  .modal .col:nth-of-type(n+2) {
     width: 70%;
+    flex-flow: row wrap;
   }
 }
 @media screen and (min-width: 900px) {
@@ -1196,8 +1287,9 @@ html {
     height: 80vh;
     width: auto;
   }
-  .modal.col:nth-of-type(n+2) {
+  .modal .col:nth-of-type(n+2) {
     width: 60%;
+    flex-flow: column wrap;
   }
 }
 @media screen and (min-width: 481px) {
@@ -1205,6 +1297,10 @@ html {
     font-size: 14px;
     height: 12px;
     width: 12px;
+  }
+  .modal .col:nth-of-type(n+2) {
+    width: 60%;
+    flex-flow: column wrap;
   }
 }
 @media screen and (min-width: 650px) {
@@ -1221,13 +1317,18 @@ html {
     height: auto;
     top: -20vh;
   }
+  .modal .col:nth-of-type(n+2) {
+    width: 60%;
+    flex-flow: column wrap;
+  }
 }
 @media screen and (min-width: 730px) {
   div.cards {
     justify-content: space-between;
   }
-  .modal.col:nth-of-type(n+2) {
+  .modal .col:nth-of-type(n+2) {
     width: 70%;
+    flex-flow: row wrap;
   }
 }
 @media screen and (min-width: 900px) {
@@ -1329,8 +1430,9 @@ html {
     height: 80vh;
     width: auto;
   }
-  .modal.col:nth-of-type(n+2) {
+  .modal .col:nth-of-type(n+2) {
     width: 60%;
+    flex-flow: column wrap;
   }
 }
 @media screen and (min-width: 481px) {
@@ -1338,6 +1440,10 @@ html {
     font-size: 14px;
     height: 12px;
     width: 12px;
+  }
+  .modal .col:nth-of-type(n+2) {
+    width: 60%;
+    flex-flow: column wrap;
   }
 }
 @media screen and (min-width: 650px) {
@@ -1354,13 +1460,18 @@ html {
     height: auto;
     top: -20vh;
   }
+  .modal .col:nth-of-type(n+2) {
+    width: 60%;
+    flex-flow: column wrap;
+  }
 }
 @media screen and (min-width: 730px) {
   div.cards {
     justify-content: space-between;
   }
-  .modal.col:nth-of-type(n+2) {
+  .modal .col:nth-of-type(n+2) {
     width: 70%;
+    flex-flow: row wrap;
   }
 }
 @media screen and (min-width: 900px) {
@@ -1438,8 +1549,9 @@ html {
     height: 80vh;
     width: auto;
   }
-  .modal.col:nth-of-type(n+2) {
+  .modal .col:nth-of-type(n+2) {
     width: 60%;
+    flex-flow: column wrap;
   }
 }
 @media screen and (min-width: 481px) {
@@ -1447,6 +1559,10 @@ html {
     font-size: 14px;
     height: 12px;
     width: 12px;
+  }
+  .modal .col:nth-of-type(n+2) {
+    width: 60%;
+    flex-flow: column wrap;
   }
 }
 @media screen and (min-width: 650px) {
@@ -1463,13 +1579,18 @@ html {
     height: auto;
     top: -20vh;
   }
+  .modal .col:nth-of-type(n+2) {
+    width: 60%;
+    flex-flow: column wrap;
+  }
 }
 @media screen and (min-width: 730px) {
   div.cards {
     justify-content: space-between;
   }
-  .modal.col:nth-of-type(n+2) {
+  .modal .col:nth-of-type(n+2) {
     width: 70%;
+    flex-flow: row wrap;
   }
 }
 @media screen and (min-width: 900px) {
@@ -1558,8 +1679,9 @@ html {
     height: 80vh;
     width: auto;
   }
-  .modal.col:nth-of-type(n+2) {
+  .modal .col:nth-of-type(n+2) {
     width: 60%;
+    flex-flow: column wrap;
   }
 }
 @media screen and (min-width: 481px) {
@@ -1567,6 +1689,10 @@ html {
     font-size: 14px;
     height: 12px;
     width: 12px;
+  }
+  .modal .col:nth-of-type(n+2) {
+    width: 60%;
+    flex-flow: column wrap;
   }
 }
 @media screen and (min-width: 650px) {
@@ -1583,13 +1709,18 @@ html {
     height: auto;
     top: -20vh;
   }
+  .modal .col:nth-of-type(n+2) {
+    width: 60%;
+    flex-flow: column wrap;
+  }
 }
 @media screen and (min-width: 730px) {
   div.cards {
     justify-content: space-between;
   }
-  .modal.col:nth-of-type(n+2) {
+  .modal .col:nth-of-type(n+2) {
     width: 70%;
+    flex-flow: row wrap;
   }
 }
 @media screen and (min-width: 900px) {
@@ -1679,8 +1810,9 @@ html {
     height: 80vh;
     width: auto;
   }
-  .modal.col:nth-of-type(n+2) {
+  .modal .col:nth-of-type(n+2) {
     width: 60%;
+    flex-flow: column wrap;
   }
 }
 @media screen and (min-width: 481px) {
@@ -1688,6 +1820,10 @@ html {
     font-size: 14px;
     height: 12px;
     width: 12px;
+  }
+  .modal .col:nth-of-type(n+2) {
+    width: 60%;
+    flex-flow: column wrap;
   }
 }
 @media screen and (min-width: 650px) {
@@ -1704,13 +1840,18 @@ html {
     height: auto;
     top: -20vh;
   }
+  .modal .col:nth-of-type(n+2) {
+    width: 60%;
+    flex-flow: column wrap;
+  }
 }
 @media screen and (min-width: 730px) {
   div.cards {
     justify-content: space-between;
   }
-  .modal.col:nth-of-type(n+2) {
+  .modal .col:nth-of-type(n+2) {
     width: 70%;
+    flex-flow: row wrap;
   }
 }
 @media screen and (min-width: 900px) {
@@ -1788,8 +1929,9 @@ html {
     height: 80vh;
     width: auto;
   }
-  .modal.col:nth-of-type(n+2) {
+  .modal .col:nth-of-type(n+2) {
     width: 60%;
+    flex-flow: column wrap;
   }
 }
 @media screen and (min-width: 481px) {
@@ -1797,6 +1939,10 @@ html {
     font-size: 14px;
     height: 12px;
     width: 12px;
+  }
+  .modal .col:nth-of-type(n+2) {
+    width: 60%;
+    flex-flow: column wrap;
   }
 }
 @media screen and (min-width: 650px) {
@@ -1813,13 +1959,18 @@ html {
     height: auto;
     top: -20vh;
   }
+  .modal .col:nth-of-type(n+2) {
+    width: 60%;
+    flex-flow: column wrap;
+  }
 }
 @media screen and (min-width: 730px) {
   div.cards {
     justify-content: space-between;
   }
-  .modal.col:nth-of-type(n+2) {
+  .modal .col:nth-of-type(n+2) {
     width: 70%;
+    flex-flow: row wrap;
   }
 }
 @media screen and (min-width: 900px) {
