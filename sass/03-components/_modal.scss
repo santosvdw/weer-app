@@ -88,7 +88,6 @@ div.modal_bg {
     }
     
     &:nth-last-of-type(1) {
-        margin-top: 5%;
         justify-content: space-evenly;
     }
     &:nth-of-type(n+2) {
@@ -97,6 +96,7 @@ div.modal_bg {
         text-align: center;
 
         .row {
+            margin-top: 5%;
             p:nth-of-type(1) {
                 font-size: 1.3rem;
                 font-weight: 600;
