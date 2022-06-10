@@ -24,8 +24,9 @@ html {
         height: 80vh;
         width: auto;
     }
-    .modal.col:nth-of-type(n+2) {
+    .modal .col:nth-of-type(n+2) {
         width: 60%;  
+        flex-flow: column wrap;
     }
 }
 
@@ -34,6 +35,10 @@ html {
         font-size: 14px;
         height: 12px;
         width: 12px;
+    }
+    .modal .col:nth-of-type(n+2) {
+        width: 60%;  
+        flex-flow: column wrap;
     }
 }
 
@@ -51,6 +56,10 @@ html {
         height: auto;
         top: -20vh;
     }
+    .modal .col:nth-of-type(n+2) {
+        width: 60%;  
+        flex-flow: column wrap;
+    }
 }
 
 @media screen and (min-width: 730px) {
@@ -58,8 +67,9 @@ html {
         justify-content: space-between;
     }
 
-    .modal.col:nth-of-type(n+2) {
+    .modal .col:nth-of-type(n+2) {
         width: 70%;    
+        flex-flow: row wrap;
     }
 }
 
