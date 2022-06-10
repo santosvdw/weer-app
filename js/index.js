@@ -463,6 +463,12 @@ fetch('https://data.buienradar.nl/2.0/feed/json')
                 console.log(weatherDesc.innerHTML);
             }
 
+            // Modal weather icon
+            let modalIconDiv = document.querySelector('.col:nth-of-type(1)');
+            modalIconDiv.innerHTML = '<img class="modal_icon">';
+            document.querySelector('.modal_icon').src = statMea[i].iconurl;
+
+            // Background image
             if (curWeatherDesc == 'Vrijwel onbewolkt (zonnig/helder)') {
                 var achtergrondFoto = 'https://images.unsplash.com/photo-1593635698515-bcfdebfb547e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80';
             } else if (curWeatherDesc == 'Mix van opklaringen en hoge bewolking') {
@@ -803,12 +809,3 @@ function closeModal() {
 }
 
 // Modal weer icoon
-
-function weerIconModal() {
-    var img = document.createElement('img');
-    img.src = statMea[i].iconurl; // <-- Het weer icoon
-    var src = document.querySelector('.weer-icon');
-    src.appendChild(img);
-}
-
-weerIconModal();
