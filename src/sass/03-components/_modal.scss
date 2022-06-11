@@ -88,6 +88,7 @@ div.modal_bg {
 
         .row {
             width: 33%;
+            background-color: blue;
         }
     }
     
@@ -99,7 +100,7 @@ div.modal_bg {
         }
     }
     &:nth-of-type(n+2) {
-        width: 70%;
+        // width: 75%;
         font-size: 1.2rem;
         text-align: center;
 
