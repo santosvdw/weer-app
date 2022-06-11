@@ -1186,7 +1186,6 @@ div.modal_bg {
 }
 .col:nth-of-type(2) .row {
   width: 33%;
-  background-color: blue;
 }
 .col:nth-last-of-type(1) {
   justify-content: space-evenly;
