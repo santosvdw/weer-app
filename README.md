@@ -36,6 +36,7 @@ Wij hebben gegevens verzameld door onze vrienden en familie een kleine enquête 
 ## Structuur
 ### Front-end:
 <img src="./functioneel-ontwerp/ontwerp/site-structuur.png" />
+
 ### Back-end:
 <img src="./functioneel-ontwerp/ontwerp/map-structuur.png" />
 
