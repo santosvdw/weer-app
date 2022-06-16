@@ -47,6 +47,6 @@ Wij hebben gegevens verzameld door onze vrienden en familie een kleine enquête 
 - <b>Icoontjes</b>: De icoontjes die wij willen weergeven op de site gaan wij importeren uit de buienradar API. We gaan niks aanpassen aan de styling van de icoontjes (behalve misschien de grootte)
 
 ## Schermontwerp
-<img src="./functioneel-ontwerp/ontwerp/laptop.png" />
-<img src="./functioneel-ontwerp/ontwerp/telefoon.png" />
-<img src="./functioneel-ontwerp/ontwerp/dialog design.png" />
+<img src="./functioneel-ontwerp/ontwerp/Laptop.png" />
+<img src="./functioneel-ontwerp/ontwerp/Telefoon.png" />
+<img src="./functioneel-ontwerp/ontwerp/Dialog design.png" />
