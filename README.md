@@ -48,5 +48,5 @@ Wij hebben gegevens verzameld door onze vrienden en familie een kleine enquête 
 
 ## Schermontwerp
 <img src="./functioneel-ontwerp/ontwerp/Laptop.png" width="70%"/>
-<img src="./functioneel-ontwerp/ontwerp/Telefoon.png" width="30%"/>
+<img src="./functioneel-ontwerp/ontwerp/Telefoon.png" width="25%"/>
 <img src="./functioneel-ontwerp/ontwerp/Dialog design.png" />
