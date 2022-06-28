@@ -4,6 +4,15 @@
     "description": "Weer web-app gebouwd met de database van buienradar.nl",
     "main": "public/index.html",
     "author": "Santos van der Wansem & Fenne Hoogenboom",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/santosvdw/weer-app-v4.git"
+    },
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/santosvdw/weer-app-v4/issues"
+    },
+    "homepage": "https://github.com/santosvdw/weer-app-v4#readme",
     "scripts": {
         "build:sass": "sass  --no-source-map src/sass:public/css",
         "copy:assets": "copyfiles -u 1 ./src/assets/**/* public",
